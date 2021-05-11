@@ -3,47 +3,47 @@ IP=$(cat /etc/IP)
 if [ ! -d /etc/SSHPlus/userteste ]; then
 mkdir /etc/SSHPlus/userteste
 fi
-tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-15s\n' "Criar usuario teste" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-15s\n' "Create test user" ; tput sgr0
 echo ""
-[ "$(ls -A /etc/SSHPlus/userteste)" ] && echo -e "\033[1;32mTeste Ativo!\033[1;37m" || echo -e "\033[1;31mNenhum test ativo!\033[0m"
+[ "$(ls -A /etc/SSHPlus/userteste)" ] && echo -e "\033[1;32mActive Test!\033[1;37m" || echo -e "\033[1;31mNo active test!\033[0m"
 echo ""
 for testeson in $(ls /etc/SSHPlus/userteste |sort |sed 's/.sh//g')
 do
 echo "$testeson"
 done
 echo ""
-echo -ne "\033[1;32mNome do usuario\033[1;37m: "; read nome
+echo -ne "\033[1;32mUsername\033[1;37m: "; read nome
 if [[ -z $nome ]]
 then
 echo ""
-tput setaf 7 ; tput setab 1 ; tput bold ; echo "" ; echo "Nome vazio ou invalido." ; echo "" ; tput sgr0
+tput setaf 7 ; tput setab 1 ; tput bold ; echo "" ; echo "Empty or invalid name." ; echo "" ; tput sgr0
 	exit 1
 fi
 awk -F : ' { print $1 }' /etc/passwd > /tmp/users 
 if grep -Fxq "$nome" /tmp/users
 then
-	tput setaf 7 ; tput setab 1 ; tput bold ; echo "" ; echo "Este usuário já existe." ; echo "" ; tput sgr0
+	tput setaf 7 ; tput setab 1 ; tput bold ; echo "" ; echo "This user already exists." ; echo "" ; tput sgr0
 	exit 1
 fi
-echo -ne "\033[1;32mSenha\033[1;37m: "; read pass
+echo -ne "\033[1;32mPassword\033[1;37m: "; read pass
 if [[ -z $pass ]]
 then
 echo ""
-tput setaf 7 ; tput setab 1 ; tput bold ; echo "" ; echo "Senha vazia ou invalida." ; echo "" ; tput sgr0
+tput setaf 7 ; tput setab 1 ; tput bold ; echo "" ; echo "Password is empty or invalid." ; echo "" ; tput sgr0
 	exit 1
 fi
-echo -ne "\033[1;32mLimite\033[1;37m: "; read limit
+echo -ne "\033[1;32mLimit\033[1;37m: "; read limit
 if [[ -z $limit ]]
 then
 echo ""
-tput setaf 7 ; tput setab 1 ; tput bold ; echo "" ; echo "Limite vazio ou invalido." ; echo "" ; tput sgr0
+tput setaf 7 ; tput setab 1 ; tput bold ; echo "" ; echo "Empty or invalid limit." ; echo "" ; tput sgr0
 	exit 1
 fi
 echo -ne "\033[1;32mMinutos \033[1;33m(\033[1;31mEx: \033[1;37m60\033[1;33m)\033[1;37m: "; read u_temp
 if [[ -z $limit ]]
 then
 echo ""
-tput setaf 7 ; tput setab 1 ; tput bold ; echo "" ; echo "Limite vazio ou invalido." ; echo "" ; tput sgr0
+tput setaf 7 ; tput setab 1 ; tput bold ; echo "" ; echo "Empty or invalid limit." ; echo "" ; tput sgr0
 	exit 1
 fi
 useradd -M -s /bin/false $nome
@@ -60,14 +60,36 @@ exit" > /etc/SSHPlus/userteste/$nome.sh
 chmod +x /etc/SSHPlus/userteste/$nome.sh
 at -f /etc/SSHPlus/userteste/$nome.sh now + $u_temp min > /dev/null 2>&1
 clear
-echo -e "\E[44;1;37m     Usuario Teste Criado     \E[0m"
+echo -e "\E[44;1;37m     Test User Created     \E[0m"
 echo ""
-echo -e "\033[1;32mIP:\033[1;37m $IP"
-echo -e "\033[1;32mUsuario:\033[1;37m $nome"
-echo -e "\033[1;32mSenha:\033[1;37m $pass"
-echo -e "\033[1;32mLimite:\033[1;37m $limit"
-echo -e "\033[1;32mValidade:\033[1;37m $u_temp Minutos"
+echo -e "\033[1;32m♻️Paid Privet SSH ♻️"
 echo ""
-echo -e "\033[1;33mApos o tempo definido o usuario"
-echo -e "\033[1;32m$nome \033[1;33msera desconectado e deletado.\033[0m"
+echo -e "\033[1;32m🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥"
+echo -e "\033[1;32m======================"
+echo -e "\033[1;32m=❌NO SPAM"
+echo -e "\033[1;32m=❌NO DDOS "
+echo -e "\033[1;32m=❌NO HACKING "
+echo -e "\033[1;32m=❌NO CARDING   "
+echo -e "\033[1;32m=❌NO TORRENT   "
+echo -e "\033[1;32m=❌NO OVER DOWNLOAD"
+echo -e "\033[1;32m=❌NO MULTILOGIN "
+echo -e "\033[1;32m======================="
+echo ""
+echo -e "\033[1;32mᗚ IP • ๛\033[1;37m $IP"
+echo -e "\033[1;32mᗚ Username • ๛\033[1;37m $nome"
+echo -e "\033[1;32mᗚ Password • ๛\033[1;37m $pass"
+echo -e "\033[1;32mᗚ Limit •\033[1;37m $limit"
+echo -e "\033[1;32mᗚ Expire •\033[1;37m $u_temp Minutos"
+echo ""
+echo -e "\033[1;32m࿂ SSH •  22"
+echo -e "\033[1;32m࿂ SSL •  443"
+echo -e "\033[1;32m࿂ Squid  •  8080"
+echo -e "\033[1;32m࿂ Dropbear •  80"
+echo -e "\033[1;32m [-] ═───────◇───────═"
+echo -e "\033[1;32m࿂ Badvpn •  7300"
+echo -e "\033[1;32m [-] ═───────◇───────═"
+echo -e "\033[1;32m›☬[•] SCRIPTS ═◇ DARKSSH ◇═ [•]☬"
+echo ""
+echo -e "\033[1;33mAfter the defined time the user"
+echo -e "\033[1;32m$nome \033[1;33mwill be disconnected and deleted.\033[0m"
 exit
