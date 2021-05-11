@@ -4,11 +4,11 @@
 
 * UPDATE 11/05/2021 - Completed Project
 
-**Language**
+# Language
 
-*ENGLISH
-
-*SINHALA
+* ENGLISH
+ 
+* SINHALA
 
 # ❤️Remodied for Sri Lanka ...
 
