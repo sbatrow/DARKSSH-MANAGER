@@ -1,6 +1,6 @@
 ﻿# DARKSSH MANAGER
 ```
-* UPDATE 11/05/2021 - PROYECTO FINALIZADO
+* UPDATE 11/05/2021 - අවසන් කරන ලද ව්‍යාපෘතිය
 ```
 ![logo](https://github.com/sbatrow/DARKSSH-MANAGER/blob/master/Imagenes/SSHPLUS_MANAGER.jpg)
 
