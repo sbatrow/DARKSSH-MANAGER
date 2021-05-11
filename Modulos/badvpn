@@ -30,7 +30,7 @@ tput cnorm
 fun_udp1 () {
     [[ -e "/bin/badvpn-udpgw" ]] && {
     clear
-    echo -e "\033[1;32mආරම්භ කිරීම BADVPN... \033[0m\n"
+    echo -e "\033[1;32mSTARTING BADVPN ...\033[0m\n"
     fun_udpon () {
         screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 1000 --max-connections-for-client 10
         [[ $(grep -wc "udpvpn" /etc/autostart) = '0' ]] && {
@@ -42,12 +42,12 @@ fun_udp1 () {
         sleep 1
     }
     fun_bar 'fun_udpon'
-    echo -e "\n  \033[1;32mBADVPN ක්‍රියාත්මක වන්න!\033[0m"
+    echo -e "\n  \033[1;32mBADVPN ACTIVE!\033[0m"
     sleep 3
     menu
     } || {
         clear
-        echo -e "\033[1;32mස්ථාපනය කිරීම BADVPN !\033[0m\n"
+        echo -e "\033[1;32mINSTALLING BADVPN!\033[0m\n"
 	    inst_udp () {
 	        cd $HOME
             wget https://www.dropbox.com/s/tgkxdwb03r7w59r/badvpn-udpgw -o /dev/null
@@ -55,7 +55,7 @@ fun_udp1 () {
             chmod 777 /bin/badvpn-udpgw
 	   }
 	   fun_bar 'inst_udp'
-	   echo -e "\n\033[1;32mආරම්භ කිරීම BADVPN... \033[0m\n"
+	   echo -e "\n\033[1;32mSTARTING BADVPN ... \033[0m\n"
        fun_udpon2 () {
            screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 1000 --max-connections-for-client 10
            [[ $(grep -wc "udpvpn" /etc/autostart) = '0' ]] && {
@@ -67,7 +67,7 @@ fun_udp1 () {
            sleep 1
        }
        fun_bar 'fun_udpon2'
-       echo -e "\n\033[1;32mBADVPNක්‍රියාත්මක වන්න!\033[0m"
+       echo -e "\n\033[1;32mBADVPN ACTIVE!\033[0m"
        sleep 3
        menu
     }
@@ -75,7 +75,7 @@ fun_udp1 () {
 
 fun_udp2 () {
     clear
-    echo -e "\n\033[1;32mනවත්වන්න BADVPN...\033[0m\n"
+    echo -e "\n\033[1;32mSTOPPING BADVPN ...\033[0m\n"
     fun_stopbad () {
         sleep 1
         screen -r -S "udpvpn" -X quit
@@ -86,7 +86,7 @@ fun_udp2 () {
         sleep 1
     }
     fun_bar 'fun_stopbad'
-    echo -e "\n  \033[1;31mBADVPN නතර කළා!\033[0m"
+    echo -e "\n  \033[1;31mBADVPN STOPPED!\033[0m"
     sleep 3
     menu
 }
