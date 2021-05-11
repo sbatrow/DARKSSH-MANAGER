@@ -31,7 +31,7 @@ IP=$(cat /etc/IP)
 x="ok"
 
 #PAYYLOADS
-link_bin="https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-ULTIMATE-NEW-FREE/master/Install/payloads"
+link_bin="https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Install/payloads"
 [[ ! -e /bin/payloads ]] && wget -O /bin/payloads ${link_bin} > /dev/null 2>&1 && chmod +x /bin/payloads
 
 criarpay () {
