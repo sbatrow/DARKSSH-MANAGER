@@ -21,9 +21,9 @@ SCRIPT DARKSSH MANAGER යනු සුදුසු අංග සහ මෙව�
 * අපි නිර්දේශ කරන්නේ ඩේබියන් 9 සේවාදායකය x86_64 / උබුන්ටු 16.04 සේවාදායකය x86_64
 
 ## :book: Installation
-
+```
 apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Plus; chmod 777 Plus; ./Plus
-
+```
 ```
 *🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥*
 ```
