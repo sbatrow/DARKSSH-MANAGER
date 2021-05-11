@@ -47,4 +47,4 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/sb
 ☆ [🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥](https://t.me/sibatrow) ☆
 ```
 
-**By: [  ⃘⃤꙰✰ ]**
+**By: Batrow tech 🇱🇰 **
