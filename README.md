@@ -2,7 +2,7 @@
 ```
 * UPDATE 11/05/2021 - අවසන් කරන ලද ව්‍යාපෘතිය
 ```
-# Sri Lankan  Best number 1
+# Remodied for Sri Lanka ...
 
 ![logo](https://github.com/sbatrow/DARKSSH-MANAGER/blob/master/Imagenes/SSHPLUS_MANAGER.jpg)
 
@@ -32,10 +32,13 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/sb
 -------------------------------------------------------------------------------
 
 
-## :octocat: Contribute
+# 😍 Credits
 
 1. @crazy_vpn - Developer of SSHPlus Manager
-2. [🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥](https://t.me/sibatrow) - Contributor 
+
+# 🏃‍contact me
+
+3. [🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥](https://t.me/sibatrow) 
 
 ```
 * SIN MINERIA! 
