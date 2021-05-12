@@ -22,7 +22,7 @@
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/sbatrow/DARKSSH-MANAGER)   
 [![Contributors](https://img.shields.io/github/contributors/TeamUltroid/Ultroid?style=flat-square&color=green)](https://github.com/sbatrow/DARKSS-HMANAGER/graphs/contributors)        
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
-[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/sbatrow/DARKSSH-MANAGER/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-GPL-blue)](https://github.com/sbatrow/DARKSSH-MANAGER/blob/main/LICENSE)
 [![Sparkline](https://stars.medv.io/sbatrow/DARKSSH-MANAGER.svg)](https://stars.medv.io/sbatrow/DARKSSH-MANAGER)
 
 
@@ -81,6 +81,6 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/sb
 ☆ [🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥](https://t.me/sibatrow) ☆
 ```
 
-[![License](https://www.gnu.org/graphics/agplv3-155x51.png)](LICENSE)
+[![License](https://www.gnu.org/graphics/gplv3-or-later.png)](LICENSE)
 
 **By: Batrow tech 🇱🇰 **
