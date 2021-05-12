@@ -12,7 +12,7 @@
 
 # ❤️Remodied for Sri Lanka ...
 
-![logo](https://github.com/sbatrow/DARKSSH-MANAGER/main/image/DARKSSH.jpg)
+![logo](https://github.com/sbatrow/DARKSSH-MANAGER/blob/main/image/DARKSSH.jpg)
 
 
 SCRIPT DARKSSH MANAGER යනු සුදුසු අංග සහ මෙවලම් සමූහයක් සහිත පිටපතකි
