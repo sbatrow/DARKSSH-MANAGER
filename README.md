@@ -20,7 +20,7 @@
 [![Python](https://img.shields.io/badge/Python-v3.9-blue)](https://www.python.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/sbatrow/DARKSSH-MANAGER/graphs/commit-activity)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/sbatrow/DARKSSH-MANAGER)   
-[![Contributors](https://img.shields.io/github/contributors/TeamUltroid/Ultroid?style=flat-square&color=green)](https://github.com/sbatrow/DARKSS-HMANAGER/graphs/contributors        
+[![Contributors](https://img.shields.io/github/contributors/TeamUltroid/Ultroid?style=flat-square&color=green)](https://github.com/sbatrow/DARKSS-HMANAGER/graphs/contributors)        
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 [![License](https://img.shields.io/badge/GNU-GENERAL-PUBLIC-LICENSE)](https://github.com/sbatrow/DARKSSH-MANAGER/blob/main/LICENSE)
 [![Sparkline](https://stars.medv.io/Teamultroid/Ultroid.svg)](https://stars.medv.io/sbatrow/DARKSSH-MANAGER)
