@@ -37,7 +37,7 @@ SCRIPT DARKSSH MANAGER යනු සුදුසු අංග සහ මෙව�
                  VPN has a pleasant interface that provides detailed information about the machine
                  And users ...
                  
-![logo](https://github.com/sbatrow/DARKSSH-MANAGER/blob/main/image/DARKSSH.jpg)                 
+![logo](https://github.com/sbatrow/DARKSSH-MANAGER/blob/main/image/outo.jpg)                 
          
 **Manager Script**
 
