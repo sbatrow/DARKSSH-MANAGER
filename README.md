@@ -47,9 +47,9 @@ SCRIPT DARKSSH MANAGER යනු සුදුසු අංග සහ මෙව�
                  
  SCRIPT DARKSSH MANAGER is a copy with the appropriate set of features and tools
                  Focus on usage and make Linux clients extremely easy to handle
-                 VPN has a pleasant interface that provides detailed information about the machine
+                 VPN has a pleasant interface that provides detailed information about the machine               
                  And users ...
-                 
+     # Auto genarate                                                                 # Banner
 <img align="right" src="https://github.com/sbatrow/DARKSSH-MANAGER/blob/main/image/banner.jpg" width='300'/>
   
 ![logo](https://github.com/sbatrow/DARKSSH-MANAGER/blob/main/image/outo.jpg)                 
