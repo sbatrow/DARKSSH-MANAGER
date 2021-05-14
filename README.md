@@ -51,7 +51,7 @@ SCRIPT DARKSSH MANAGER යනු සුදුසු අංග සහ මෙව�
                  And users ...
                  
                                                           
-                        @ Auto genarate                                                                 @ Banner
+                   @ Auto genarate                                                                                  @ Banner
 <img align="right" src="https://github.com/sbatrow/DARKSSH-MANAGER/blob/main/image/banner.jpg" width='300'/>
   
 ![logo](https://github.com/sbatrow/DARKSSH-MANAGER/blob/main/image/outo.jpg)                 
