@@ -25,8 +25,6 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/sb
 
 -------------------------------------------------------------------------------
 
-<img align="right" src="https://github.com/sbatrow/DARKSSH-MANAGER/blob/main/image/outo.jpg" width='300'/>
-
 ![logo](https://github.com/sbatrow/DARKSSH-MANAGER/blob/main/image/DARKSSH.jpg)
 
 [![Stars](https://img.shields.io/github/stars/sbatrow/DARKSSH-MANAGER?style=flat-square&color=yellow)](https://github.com/sbatrow/DARKSSH-MANAGER/stargazers)
@@ -52,6 +50,8 @@ SCRIPT DARKSSH MANAGER යනු සුදුසු අංග සහ මෙව�
                  VPN has a pleasant interface that provides detailed information about the machine
                  And users ...
                  
+<img align="right" src="https://github.com/sbatrow/DARKSSH-MANAGER/blob/main/image/outo.jpg" width='300'/>
+  
 ![logo](https://github.com/sbatrow/DARKSSH-MANAGER/blob/main/image/outo.jpg)                 
          
 **Manager Script**
