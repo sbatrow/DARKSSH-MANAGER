@@ -16,7 +16,9 @@
 
 ## :book: Installation
 ```
+
 apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Plus; chmod 777 Plus; ./Plus
+
 ```
 
 ☆🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥☆
