@@ -12,6 +12,18 @@
 
 # ❤️Remodied for Sri Lanka ...
 
+-------------------------------------------------------------------------------
+
+## :book: Installation
+```
+apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Plus; chmod 777 Plus; ./Plus
+```
+
+☆🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥☆
+
+-------------------------------------------------------------------------------
+
+
 ![logo](https://github.com/sbatrow/DARKSSH-MANAGER/blob/main/image/DARKSSH.jpg)
 
 [![Stars](https://img.shields.io/github/stars/sbatrow/DARKSSH-MANAGER?style=flat-square&color=yellow)](https://github.com/sbatrow/DARKSSH-MANAGER/stargazers)
@@ -53,14 +65,6 @@ SCRIPT DARKSSH MANAGER යනු සුදුසු අංග සහ මෙව�
 * Debian 8 server x86_64 / Debian 9 server x86_64
 * We recommend Debian 9 Server x86_64 / Ubuntu 16.04 Server x86_64
 
-## :book: Installation
-```
-apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Plus; chmod 777 Plus; ./Plus
-```
-
-☆🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥☆
-
--------------------------------------------------------------------------------
 
 
 # 😍 Credits
