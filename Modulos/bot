@@ -1948,7 +1948,7 @@ while :; do
                         >$CAD_ARQ
                         break
                     }
-                    echo "Name: ${message_text[$id]}" >$CAD_ARQ
+                    echo "Nome: ${message_text[$id]}" >$CAD_ARQ
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
                         --text 'Password:' \
                         --reply_markup "$(ShellBot.ForceReply)" # Força a resposta.
@@ -2011,7 +2011,7 @@ while :; do
                         break
                     }
                     info_data=$(date '+%d/%m/%C%y' -d " +${message_text[$id]} days")
-                    echo "Validity: $info_data" >>$CAD_ARQ
+                    echo "Validade: $info_data" >>$CAD_ARQ
                     criar_user $CAD_ARQ
                     [[ "(grep -w ${message_text[$id]} /etc/passwd)" = '0' ]] && {
                         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
