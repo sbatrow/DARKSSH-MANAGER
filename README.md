@@ -32,6 +32,8 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/sb
 
 -------------------------------------------------------------------------------
 
+<img align="right" src="https://github.com/sbatrow/DARKSSH-MANAGER/blob/main/image/banner.jpg" width='300'/>
+
 ![logo](https://github.com/sbatrow/DARKSSH-MANAGER/blob/main/image/DARKSSH.jpg)
 
 [![Stars](https://img.shields.io/github/stars/sbatrow/DARKSSH-MANAGER?style=flat-square&color=yellow)](https://github.com/sbatrow/DARKSSH-MANAGER/stargazers)
