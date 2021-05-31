@@ -1950,10 +1950,10 @@ while :; do
                     }
                     echo "Nome: ${message_text[$id]}" >$CAD_ARQ
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text 'Password:' \
+                        --text 'Senha:' \
                         --reply_markup "$(ShellBot.ForceReply)" # Força a resposta.
                     ;;
-                'Password:')
+                'Senha:')
                     sizepass=$(echo -e ${#message_text[$id]})
                     verifica_acesso
                     [[ "$_erro" == '1' ]] && break
@@ -1964,13 +1964,13 @@ while :; do
                         >$CAD_ARQ
                         break
                     }
-                    echo "Password: ${message_text[$id]}" >>$CAD_ARQ
+                    echo "Senha: ${message_text[$id]}" >>$CAD_ARQ
                     # Próximo campo.
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text 'Limit:' \
+                        --text 'Limite:' \
                         --reply_markup "$(ShellBot.ForceReply)"
                     ;;
-                'Limit:')
+                'Limite:')
                     verifica_acesso
                     [[ "$_erro" == '1' ]] && break
                     [[ ${message_text[$id]} != ?(+|-)+([0-9]) ]] && {
@@ -1993,7 +1993,7 @@ while :; do
                             break
                         }
                     }
-                    echo "Limit: ${message_text[$id]}" >>$CAD_ARQ
+                    echo "Limite: ${message_text[$id]}" >>$CAD_ARQ
                     # Próximo campo.
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
                         --text 'Validity in days: ' \
