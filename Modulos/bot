@@ -1948,12 +1948,12 @@ while :; do
                         >$CAD_ARQ
                         break
                     }
-                    echo "Nome: ${message_text[$id]}" >$CAD_ARQ
+                    echo "Name: ${message_text[$id]}" >$CAD_ARQ
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text 'Senha:' \
+                        --text 'Password:' \
                         --reply_markup "$(ShellBot.ForceReply)" # Força a resposta.
                     ;;
-                'Senha:')
+                'Password:')
                     sizepass=$(echo -e ${#message_text[$id]})
                     verifica_acesso
                     [[ "$_erro" == '1' ]] && break
@@ -1964,13 +1964,13 @@ while :; do
                         >$CAD_ARQ
                         break
                     }
-                    echo "Senha: ${message_text[$id]}" >>$CAD_ARQ
+                    echo "Password: ${message_text[$id]}" >>$CAD_ARQ
                     # Próximo campo.
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text 'Limite:' \
+                        --text 'Limit:' \
                         --reply_markup "$(ShellBot.ForceReply)"
                     ;;
-                'Limite:')
+                'Limit:')
                     verifica_acesso
                     [[ "$_erro" == '1' ]] && break
                     [[ ${message_text[$id]} != ?(+|-)+([0-9]) ]] && {
@@ -1993,14 +1993,14 @@ while :; do
                             break
                         }
                     }
-                    echo "Limite: ${message_text[$id]}" >>$CAD_ARQ
+                    echo "Limit: ${message_text[$id]}" >>$CAD_ARQ
                     # Próximo campo.
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text 'Validade em dias: ' \
+                        --text 'Validity in days: ' \
                         --reply_markup "$(ShellBot.ForceReply)"
                     ;;
 
-                'Validade em dias:')
+                'Validity in days:')
                     verifica_acesso
                     [[ "$_erro" == '1' ]] && break
                     [[ ${message_text[$id]} != ?(+|-)+([0-9]) ]] && {
@@ -2011,7 +2011,7 @@ while :; do
                         break
                     }
                     info_data=$(date '+%d/%m/%C%y' -d " +${message_text[$id]} days")
-                    echo "Validade: $info_data" >>$CAD_ARQ
+                    echo "Validity: $info_data" >>$CAD_ARQ
                     criar_user $CAD_ARQ
                     [[ "(grep -w ${message_text[$id]} /etc/passwd)" = '0' ]] && {
                         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
