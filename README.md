@@ -20,8 +20,6 @@
 
 -------------------------------------------------------------------------------
 
-# Update Tutorial and SSH Bot Tutorial
-- Full Tutorial - [![Full Tutorial](https://img.shields.io/badge/Watch%20Now-blue)](https://youtu.be/EdFbpnnCLeM)
 
 ## :book: Installation
 ```
