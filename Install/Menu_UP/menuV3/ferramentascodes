@@ -30,6 +30,8 @@ tput cnorm
 
 IP=$(cat /etc/IP)
 x="ok"
+usercodes ()
+{
 
 velocity () {
 aguarde () {
@@ -210,5 +212,6 @@ case "$x" in
    sleep 2
 esac
 done
-menu
+}
+ferramentascodes
 #fim
