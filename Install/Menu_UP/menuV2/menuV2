@@ -30,6 +30,8 @@ tput cnorm
 
 IP=$(cat /etc/IP)
 x="ok"
+menu ()
+{
 
 velocity () {
 aguarde () {
@@ -130,7 +132,7 @@ function autoexec () {
       echo ""
       echo -e "\033[1;31mAUTO EXECUÇÃO DESATIVADO!\033[0m"
       sleep 1.5s
-      menu
+      menu2
    else
       clear
       echo -e "\033[1;32mATIVANDO AUTO EXECUÇÃO\033[0m"
@@ -143,7 +145,7 @@ function autoexec () {
       echo ""
       echo -e "\033[1;32mAUTO EXECUÇÃO ATIVADO!\033[0m"
       sleep 1.5s
-      menu
+      menu2
    fi
 
 }
@@ -363,5 +365,6 @@ case "$x" in
    sleep 2
 esac
 done
+}
 menu
 #fim
