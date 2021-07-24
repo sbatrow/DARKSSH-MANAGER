@@ -7,7 +7,7 @@
 #	CANAL TELEGRAM:	http://t.me/sshplus
 #====================================================
 _lvk=$(wget -qO- https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Install/versao)
-IP=$(wget -qO- ipv4.icanhazip.com)
+IP=$(wget -qO- sshplus.xyz/meuip.php)
 IP2=$(wget -qO- http://whatismyip.akamai.com/)
 [[ "$IP" != "$IP2" ]] && ipdovps="$IP2" || ipdovps="$IP"
 echo -e "$ipdovps" >/etc/IP
