@@ -15,7 +15,12 @@ https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Install/sshd_co
 
 https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Install/addIP
 
-https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Modulos/menuV2
+
+https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Install/slowdns
+
+https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Install/dns-server
+
+https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Install/dns
 
 https://www.dropbox.com/s/tgkxdwb03r7w59r/badvpn-udpgw
 
