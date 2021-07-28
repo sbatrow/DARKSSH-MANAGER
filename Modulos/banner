@@ -54,8 +54,7 @@ echo -e "\033[1;31m[\033[1;36m09\033[1;31m]\033[1;33m BLACK  (කලු)"
 echo -e "\033[1;31m[\033[1;36m10\033[1;31m]\033[1;33m WITHOUT COLOR (වර්ණයකින් තොරව)"
 echo ""
 echo -ne "\033[1;32mQUAL A COR\033[1;31m ?\033[1;37m : "; read ban_cor
-echo "<font><h>DARKSSH-MANAGER</font></h>$_size>" >> $local
-echo "<font><h>powered by - ⚡️ Sithum Batrow 🇱🇰 ⚡️ </font></h>$_size>" >> $local
+echo "<h3><font color='blue'>DARKSSH MANAGER" >> $local
 if [[ "$ban_cor" = "1" ]] || [[ "$ban_cor" = "01" ]]; then
 echo "<h$_size><font color='blue'>$msg1" >> $local
 elif [[ "$ban_cor" = "2" ]] || [[ "$ban_cor" = "02" ]]; then
@@ -76,6 +75,7 @@ elif [[ "$ban_cor" = "9" ]] || [[ "$ban_cor" = "09" ]]; then
 echo "<h$_size><font color='black'>$msg1" >> $local
 elif [[ "$ban_cor" = "10" ]]; then
 echo "<h$_size>$msg1</h$_size>" >> $local
+
 /etc/init.d/ssh restart > /dev/null 2>&1
 echo -e "\n\033[1;32mBANNER DEFINED!\033[0m"
 sleep 2
