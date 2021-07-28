@@ -11,7 +11,6 @@ chk=$(cat /etc/ssh/sshd_config | grep Banner)
     local="/etc/bannerssh"
     [[ $(grep -wc $local /etc/ssh/sshd_config) = '0' ]] && echo "Banner /etc/bannerssh" >> /etc/ssh/sshd_config
 }
-echo "<h3><font color='blue'>DARKSSH MANAGER" >> $local
 echo -e "\E[44;1;37m             BANNER             \E[0m"
 echo ""
 echo -e "\033[1;31m[\033[1;36m1\033[1;31m]\033[1;37m • \033[1;33mADD BANNER"
