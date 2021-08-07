@@ -6,6 +6,10 @@
 
 # Tutorial 
 - Full Tutorial - [![Full Tutorial](https://img.shields.io/badge/Watch%20Now-blue)](https://youtu.be/g7yfqBNkk-g)
+- 
+🧿ඉතින් darkssh script🦾  එක මම හැදුවට ගොඩක් අය ඒක use කරන.විදිහ දන්නෙ නැ. 
+ඉතින් ඔන්න එ වීඩියෝ 🖥 එකත් ගෙනාව.🧿
+
 
 # 📌DARKSSH MANAGER
 
