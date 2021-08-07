@@ -4,6 +4,9 @@
 
 *  Have Telegram ssh create bot
 
+# Tutorial 
+- Full Tutorial - [![Full Tutorial](https://img.shields.io/badge/Watch%20Now-blue)](https://youtu.be/g7yfqBNkk-g%F0%9F%A7%BF%E2%9A%99%EF%B8%8F)
+
 # 📌DARKSSH MANAGER
 
 * යාවත්කාලීන කිරීම 11/05/2021 - සම්පූර්ණ කරන ලද ව්‍යාපෘතිය
