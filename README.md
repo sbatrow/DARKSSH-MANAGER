@@ -5,7 +5,7 @@
 *  Have Telegram ssh create bot
 
 # Tutorial 
-- Full Tutorial - [![Full Tutorial](https://img.shields.io/badge/Watch%20Now-blue)](https://youtu.be/g7yfqBNkk-g%F0%9F%A7%BF%E2%9A%99%EF%B8%8F)
+- Full Tutorial - [![Full Tutorial](https://img.shields.io/badge/Watch%20Now-blue)](https://youtu.be/g7yfqBNkk-g)
 
 # 📌DARKSSH MANAGER
 
