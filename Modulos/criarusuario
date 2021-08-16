@@ -75,7 +75,7 @@ fun_bar() {
         touch $HOME/fim
     ) >/dev/null 2>&1 &
     tput civis
-    echo -ne "\033[1;33mAGUARDE \033[1;37m- \033[1;33m["
+    echo -ne "\033[1;33mHOLD \033[1;37m- \033[1;33m["
     while true; do
         for ((i = 0; i < 18; i++)); do
             echo -ne "\033[1;31m#"
@@ -86,79 +86,79 @@ fun_bar() {
         sleep 1s
         tput cuu1
         tput dl1
-        echo -ne "\033[1;33mAGUARDE \033[1;37m- \033[1;33m["
+        echo -ne "\033[1;33mHOLD \033[1;37m- \033[1;33m["
     done
     echo -e "\033[1;33m]\033[1;37m -\033[1;32m OK !\033[1;37m"
     tput cnorm
 }
 fun_edithost() {
     clear
-    echo -e "\E[44;1;37m          ALTERAR MODO OVPN            \E[0m"
+    echo -e "\E[44;1;37m          CHANGE OVPN MODE            \E[0m"
     echo ""
-    echo -e "\033[1;33mMODO EM USO\033[1;37m: \033[1;32m$Host"
+    echo -e "\033[1;33mMODE IN USE\033[1;37m: \033[1;32m$Host"
     echo ""
     echo -e "\033[1;31m[\033[1;36m1\033[1;31m] \033[1;33mOPEN SOCKS \033[1;31m[\033[1;32mAPP MOD\033[1;31m]"
     echo -e "\033[1;31m[\033[1;36m2\033[1;31m] \033[1;33mOPEN SQUID \033[1;31m[\033[1;32mAPP MOD\033[1;31m]"
     echo -e "\033[1;31m[\033[1;36m3\033[1;31m] \033[1;33mSLOWDNS \033[1;31m[\033[1;32mOPENVPN FOR ANDROID + TERMUX\033[1;31m]"
     echo -e "\033[1;31m[\033[1;36m4\033[1;31m] \033[1;33mBYPASS \033[1;31m[\033[1;32mOPENVPN + INJECTOR\033[1;31m]"
     echo -e "\033[1;31m[\033[1;36m5\033[1;31m] \033[1;33mTODOS MODOS \033[1;31m[\033[1;32m1 OVPN DE CADA\033[1;31m]"
-    echo -e "\033[1;31m[\033[1;36m6\033[1;31m] \033[1;33mEDITAR MANUALMENTE"
-    echo -e "\033[1;31m[\033[1;36m0\033[1;31m] \033[1;33mVOLTAR"
+    echo -e "\033[1;31m[\033[1;36m6\033[1;31m] \033[1;33mEDIT MANUALLY"
+    echo -e "\033[1;31m[\033[1;36m0\033[1;31m] \033[1;33mRETURN"
     echo ""
     echo -ne "\033[1;32mWHICH MODE YOU WANT TO USE \033[1;33m?\033[1;37m "
     read respo
     [[ -z "$respo" ]] && {
-        echo -e "\n\033[1;31mOpcao invalida!"
+        echo -e "\n\033[1;31mInvalid option!"
         sleep 2
         fun_edithost
     }
     if [[ "$respo" = '1' ]]; then
-        echo -e "\n\033[1;32mALTERANDO MODO!\033[0m\n"
+        echo -e "\n\033[1;32mCHANGING MODE!\033[0m\n"
         fun_althostpay1() {
         	sed -i "7,9"d $cert01
         	sleep 1
         	sed -i "7i\remote $rmt2 $_Port\n$payload1\nhttp-proxy $IP 8080" $cert01
         }
         fun_bar 'fun_althostpay1'
-        echo -e "\n\033[1;32mMODO ALTERADO COM SUCESSO!\033[0m"
+        echo -e "\n\033[1;32mSUCCESSFULLY CHANGED MODE!\033[0m"
         fun_geraovpn
         sleep 1.5
     elif [[ "$respo" = '2' ]]; then
-        echo -e "\n\033[1;32mALTERANDO MODO!\033[0m\n"
+        echo -e "\n\033[1;32mCHANGING MODE!\033[0m\n"
         fun_althostpay2() {
             sed -i "7,9"d $cert01
         	sleep 1
         	sed -i "7i\remote $rmt2 $_Port\n$payload2\nhttp-proxy $IP 80" $cert01
         }
         fun_bar 'fun_althostpay2'
-        echo -e "\n\033[1;32mMODO ALTERADO COM SUCESSO!\033[0m"
+        echo -e "\n\033[1;32mSUCCESSFULLY CHANGED MODE!\033[0m"
         fun_geraovpn
         sleep 1.5
     elif [[ "$respo" = '3' ]]; then
-        echo -e "\n\033[1;32mALTERANDO MODO!\033[0m\n"
+        echo -e "\n\033[1;32mCHANGING MODE!\033[0m\n"
         fun_althost5() {
         	sed -i "7,9"d $cert01
         	sleep 1
         	sed -i "7i\remote 127.0.0.1 2222\nroute $IP 255.255.255.255 net_gateway" $cert01
         }
         fun_bar 'fun_althost5'
-        echo -e "\n\033[1;32mMODO ALTERADO COM SUCESSO!\033[0m"
+        echo -e "\n\033[1;32mSUCCESSFULLY CHANGED MODE!\033[0m"
         fun_geraovpn
         sleep 1.5
     elif [[ "$respo" = '4' ]]; then
-        echo -e "\n\033[1;32mALTERANDO MODO!\033[0m\n"
+        echo -e "\n\033[1;32mCHANGING MODE!\033[0m\n"
         fun_althost6() {
         	sed -i "7,9"d $cert01
         	sleep 1
         	sed -i "7i\remote $IP $_Port\nroute $IP 255.255.255.255 net_gateway\nhttp-proxy 127.0.0.1 8989" $cert01
         }
         fun_bar 'fun_althost6'
-        echo -e "\n\033[1;32mMODO ALTERADO COM SUCESSO!\033[0m"
+        echo -e "\n\033[1;32mSUCCESSFULLY CHANGED MODE!\033[0m"
         fun_geraovpn
         sleep 1.5
     elif [[ "$respo" = '5' ]]; then
         [[ ! -e "$HOME/$username.ovpn" ]] && fun_geraovpn
-        echo -e "\n\033[1;32mALTERANDO MODO!\033[0m\n"
+        echo -e "\n\033[1;32mCHANGING MODE!\033[0m\n"
         fun_packhost() {
             [[ ! -d "$HOME/OVPN" ]] && mkdir $HOME/OVPN
             sed -i "7,9"d $HOME/$username.ovpn
@@ -181,29 +181,29 @@ fun_edithost() {
             cd $HOME && rm -rf /root/OVPN >/dev/null 2>&1
         }
         fun_bar 'fun_packhost'
-        echo -e "\n\033[1;32mMODO ALTERADO COM SUCESSO!\033[0m"
+        echo -e "\n\033[1;32mSUCCESSFULLY CHANGED MODE!\033[0m"
         sleep 1.5
     elif [[ "$respo" = '6' ]]; then
         echo ""
-        echo -e "\033[1;32mALTERANDO ARQUIVO OVPN!\033[0m"
+        echo -e "\033[1;32mCHANGING OVPN FILE!\033[0m"
         echo ""
-        echo -e "\033[1;31mATENCAO!\033[0m"
+        echo -e "\033[1;31mATTENTION!\033[0m"
         echo ""
-        echo -e "\033[1;33mPARA SALVAR USE AS TECLAS \033[1;32mctrl x y\033[0m"
+        echo -e "\033[1;33mTO SAVE USE KEYS \033[1;32mctrl x y\033[0m"
         sleep 4
         clear
         nano /etc/openvpn/client-common.txt
         echo ""
-        echo -e "\033[1;32mALTERADO COM SUCESSO!\033[0m"
+        echo -e "\033[1;32mSUCCESSFULLY CHANGED!\033[0m"
         fun_geraovpn
         sleep 1.5
     elif [[ "$respo" = '0' ]]; then
         echo ""
-        echo -e "\033[1;31mRetornando...\033[0m"
+        echo -e "\033[1;31mReturning...\033[0m"
         sleep 2
     else
         echo ""
-        echo -e "\033[1;31mOpcao invalida !\033[0m"
+        echo -e "\033[1;31mInvalid option !\033[0m"
         sleep 2
         fun_edithost
     fi
@@ -275,8 +275,13 @@ echo -ne "\033[1;32mConnection limit:\033[1;37m ";read sshlimiter
 }
 [[ $sshlimiter -lt 1 ]] && {
 	echo -e "\n${cor1}Number of simultaneous connections must be greater than zero!${scor}\n"
-	exit 1
+	exit 1	
 }
+echo -ne "\033[1;32mBaner-name:\033[1;37m ";read username
+[[ -z $banername ]] && {
+	echo -e "\n${cor1}Empty or invalid Baner-name!${scor}\n"
+}	
+
 final=$(date "+%Y-%m-%d" -d "+$dias days")
 gui=$(date "+%d/%m/%Y" -d "+$dias days")
 pass=$(perl -e 'print crypt($ARGV[0], "password")' $password)
@@ -306,7 +311,7 @@ echo "$username $sshlimiter" >>/root/usuarios.db
 		echo ""
                 echo -e "\033[1;32m♻️Paid Privet SSH ♻️"
                 echo ""
-                echo -e "\033[1;32m🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥"
+                echo -e "\033[1;32m$banername"
                 echo -e "\033[1;32m======================"
                 echo -e "\033[1;32m=❌NO SPAM"
                 echo -e "\033[1;32m=❌NO DDOS "
@@ -369,7 +374,7 @@ echo "$username $sshlimiter" >>/root/usuarios.db
 		echo ""
 		echo -e "\033[1;32m♻️Paid Privet SSH ♻️"
                 echo ""
-                echo -e "\033[1;32m🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥"
+                echo -e "\033[1;32m$banername"
                 echo -e "\033[1;32m======================"
                 echo -e "\033[1;32m=❌NO SPAM"
                 echo -e "\033[1;32m=❌NO DDOS "
@@ -402,7 +407,7 @@ echo "$username $sshlimiter" >>/root/usuarios.db
 	echo ""
 	echo -e "\033[1;32m♻️Paid Privet SSH ♻️"
         echo ""
-        echo -e "\033[1;32m🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥"
+        echo -e "\033[1;32m$banername"
         echo -e "\033[1;32m======================"
         echo -e "\033[1;32m=❌NO SPAM"
         echo -e "\033[1;32m=❌NO DDOS "
