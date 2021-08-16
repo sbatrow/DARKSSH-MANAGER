@@ -34,6 +34,8 @@ https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Install/EasyRSA
 
 https://github.com/OpenVPN/easy-rsa/releases/download/3.0.1/EasyRSA-3.0.1.tgz
 
+https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Install/resolved.conf
+
 __________________
 Localizador de IP:
 
