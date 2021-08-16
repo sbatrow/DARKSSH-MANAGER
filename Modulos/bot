@@ -1969,7 +1969,7 @@ while :; do
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
                         --text 'Limite:' \
                         --reply_markup "$(ShellBot.ForceReply)"
-                    ;;                  		   
+                    ;;
                 'Limite:')
                     verifica_acesso
                     [[ "$_erro" == '1' ]] && break
@@ -1999,6 +1999,7 @@ while :; do
                         --text 'Validity in days: ' \
                         --reply_markup "$(ShellBot.ForceReply)"
                     ;;
+
                 'Validity in days:')
                     verifica_acesso
                     [[ "$_erro" == '1' ]] && break
