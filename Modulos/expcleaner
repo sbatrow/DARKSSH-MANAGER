@@ -17,7 +17,7 @@ chown nobody:$GROUPNAME /etc/openvpn/crl.pem
 [[ -e $HOME/$user.ovpn ]] && rm $HOME/$user.ovpn > /dev/null 2>&1
 [[ -e /var/www/html/openvpn/$user.zip ]] && rm /var/www/html/openvpn/$user.zip > /dev/null 2>&1
 } > /dev/null 2>&1
-echo -e "\E[44;1;37m Usuario          Data         Estado         Ação   \E[0m"
+echo -e "\E[44;1;37m User          Data         Condition         Action   \E[0m"
 echo ""
 for user in $(awk -F: '{print $1}' /etc/passwd); do
 	expdate=$(chage -l $user|awk -F: '/Account expires/{print $2}')
@@ -27,9 +27,9 @@ for user in $(awk -F: '{print $1}' /etc/passwd); do
 	expsec=$(date +%s --date="$expdate")
 	diff=$(echo $datenow - $expsec|bc -l)
 	tput setaf 2 ; tput bold
-	echo $diff|grep -q ^\- && echo "VALIDO   NAO REMOVIDO" && continue
+	echo $diff|grep -q ^\- && echo "VALID NOT REMOVED" && continue
 	tput setaf 1 ; tput bold
-	echo "VENCEU   FOI REMOVIDO"
+	echo "WON WAS REMOVED"
 	pkill -f $user
 	userdel --force $user
 	grep -v ^$user[[:space:]] /root/usuarios.db > /tmp/ph ; cat /tmp/ph > /root/usuarios.db
