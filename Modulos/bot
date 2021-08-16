@@ -1969,8 +1969,7 @@ while :; do
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
                         --text 'Baner-name:' \
                         --reply_markup "$(ShellBot.ForceReply)"
-                    ;;
-		    ;;
+                    ;;		  
                 'Baner-name:')
                     sizepass=$(echo -e ${#message_text[$id]})
                     verifica_acesso
@@ -1987,6 +1986,7 @@ while :; do
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
                         --text 'Limite:' \
                         --reply_markup "$(ShellBot.ForceReply)"
+		    ;;
                 'Limite:')
                     verifica_acesso
                     [[ "$_erro" == '1' ]] && break
