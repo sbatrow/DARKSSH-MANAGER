@@ -1,8 +1,12 @@
-# 📌DARKSSH new update v2
+# 📌DARKSSH new update v3 now
 
-* UPDATE 14/08/2021
+* UPDATE 16/08/2021
 
 *  Have Telegram ssh create bot
+*  Have ssh account banner name change 
+*  limiter problem fixed 
+*  new tab USER-LIMIT
+*  and more
 
 # Tutorial 
 - Full Tutorial - [![Full Tutorial](https://img.shields.io/badge/Watch%20Now-blue)](https://youtu.be/g7yfqBNkk-g)
