@@ -277,9 +277,10 @@ echo -ne "\033[1;32mConnection limit:\033[1;37m ";read sshlimiter
 	echo -e "\n${cor1}Number of simultaneous connections must be greater than zero!${scor}\n"
 	exit 1	
 }
-echo -ne "\033[1;32mBaner-name:\033[1;37m ";read username
+echo -ne "\033[1;32mBaner-Name:\033[1;37m ";read banername
 [[ -z $banername ]] && {
-	echo -e "\n${cor1}Empty or invalid Baner-name!${scor}\n"
+	echo -e "\n${cor1}Empty or invalid banername!${scor}\n"
+	
 }	
 
 final=$(date "+%Y-%m-%d" -d "+$dias days")
