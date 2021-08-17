@@ -6,6 +6,7 @@
 *  Have ssh account banner name change 
 *  limiter problem fixed 
 *  new tab USER-LIMIT
+*  Telegram Bot RESELLER 
 *  and more
 
 # Tutorial 
