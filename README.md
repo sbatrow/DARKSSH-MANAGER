@@ -1,6 +1,6 @@
 # 📌DARKSSH new update v3 now
 
-* UPDATE 16/08/2021
+* UPDATE 22/08/2021
 
 *  Have Telegram ssh create bot
 *  Have ssh account banner name change 
