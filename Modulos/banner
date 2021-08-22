@@ -13,6 +13,7 @@ chk=$(cat /etc/ssh/sshd_config | grep Banner)
 }
 echo -e "\E[44;1;37m             BANNER             \E[0m"
 echo ""
+echo "MANUAL SSHBANER COMMAND"
 echo "$sudo nano /etc/bannerssh"
 echo "pest baner html text"
 echo "CTRL+O enter CTRL+X"
