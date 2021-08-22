@@ -8,6 +8,7 @@
 *  new tab USER-LIMIT
 *  Telegram Bot RESELLER 
 *  and more
+*  manual ssh baner add command
 
 # Tutorial 
 - Full Tutorial - [![Full Tutorial](https://img.shields.io/badge/Watch%20Now-blue)](https://youtu.be/g7yfqBNkk-g)
