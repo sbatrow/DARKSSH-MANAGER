@@ -10,7 +10,9 @@
 *  and more
 *  manual ssh baner add command
 
-# Offer
+# 🎁Offer
+
+gets $100 in credit over 60 days
 
 [![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=b255f41c4d26&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
