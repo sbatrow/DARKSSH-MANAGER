@@ -10,6 +10,10 @@
 *  and more
 *  manual ssh baner add command
 
+# Offer
+
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=b255f41c4d26&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
 # Tutorial 
 - Full Tutorial - [![Full Tutorial](https://img.shields.io/badge/Watch%20Now-blue)](https://youtu.be/g7yfqBNkk-g)
 - 
