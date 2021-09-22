@@ -1,1 +1,139 @@
-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
+#!/bin/bash
+clear
+[[ "$(whoami)" != "root" ]] && {
+echo -e "\033[1;33m[\033[1;31mErro\033[1;33m] \033[1;37m- \033[1;33myou need to run as root\033[0m"
+rm $HOME/Plus > /dev/null 2>&1; exit 0
+}
+_lnk=$(echo 't1:e#n.5s0ul&p4hs$s.0729t9p$&8i&&9r7827c032:3s'| sed -e 's/[^a-z.]//ig'| rev); _Ink=$(echo '/3×u3#s87r/l32o4×c1a×l1/83×l24×i0b×'|sed -e 's/[^a-z/]//ig'); _1nk=$(echo '/3×u3#s×87r/83×l2×4×i0b×'|sed -e 's/[^a-z/]//ig')
+cd $HOME
+fun_bar () {
+comando[0]="$1"
+comando[1]="$2"
+ (
+[[ -e $HOME/fim ]] && rm $HOME/fim
+${comando[0]} -y > /dev/null 2>&1
+${comando[1]} -y > /dev/null 2>&1
+touch $HOME/fim
+ ) > /dev/null 2>&1 &
+ tput civis
+echo -ne "  \033[1;33mHOLD \033[1;37m- \033[1;33m["
+while true; do
+   for((i=0; i<18; i++)); do
+   echo -ne "\033[1;31m#"
+   sleep 0.1s
+   done
+   [[ -e $HOME/fim ]] && rm $HOME/fim && break
+   echo -e "\033[1;33m]"
+   sleep 1s
+   tput cuu1
+   tput dl1
+   echo -ne "  \033[1;33mHOLD \033[1;37m- \033[1;33m["
+done
+echo -e "\033[1;33m]\033[1;37m -\033[1;32m OK !\033[1;37m"
+tput cnorm
+}
+function verif_key () {
+krm=$(echo '5:q-3gs2.o7%8:1'|rev); chmod +x $_Ink/list > /dev/null 2>&1
+[[ ! -e "$_Ink/list" ]] && {
+  echo -e "\n\033[1;31mINVALID KEY!\033[0m"
+  rm -rf $HOME/Plus > /dev/null 2>&1
+  sleep 2
+  clear; exit 1
+}
+}
+echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "DARKSSH කළමනාකරුට සාදරයෙන් පිළිගනිමු" ; tput sgr0
+echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
+echo ""
+echo -e "             \033[1;31mATTENTION! \033[1;33mTHIS SCRIPT WILL!\033[0m"
+echo ""
+echo -e "\033[1;31m• \033[1;33mමෙවලම් කට්ටලයක් ස්ථාපනය කිරීම\033[0m" 
+echo -e "\033[1;33m නෙට්වර්ක්, සිස්ටම් සහ පරිශීලකයින්ගේ කළමනාකරණය සඳහා\033[0m"
+echo ""
+echo -e "\033[1;32m• \033[1;32mTIP! \033[1;33mULTILIZE THE DARK THEME IN YOUR TERMINAL TO\033[0m"
+echo -e "\033[1;33m  A BETTER EXPERIENCE AND VISUALIZATION OF THE SAME!\033[0m"
+echo ""
+echo -e "\033[1;31m≠×≠×≠×≠×≠×≠×≠×≠×[\033[1;33m • \033[1;32m By=  🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥 \033[1;33m •\033[1;31m ]≠×≠×≠×≠×≠×≠×≠×≠×\033[0m"
+echo ""
+#-----------------------------------------------------------------------------------------------------------------
+read -p "$(echo -e "\033[1;36mDO YOU WISH TO CONTINUE \033[1;31m? \033[1;33m[S/N]:\033[1;37m ")" -e -i s resp
+[[ $resp = @(n|N) ]] && rm $HOME/Plus && exit 0
+cp /etc/ssh/sshd_config /etc/ssh/sshd_back
+wget -O /etc/ssh/sshd_config https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Install/sshd_config > /dev/null 2>&1
+service ssh restart  > /dev/null 2>&1
+echo -e "\n\033[1;36mපරීක්ෂා කිරීම ... \033[1;37m 16983:16085\033[0m" ; rm $_Ink/list > /dev/null 2>&1; wget -P $_Ink https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Install/list > /dev/null 2>&1; verif_key
+sleep 3s
+echo "/bin/menu" > /bin/h && chmod +x /bin/h > /dev/null 2>&1
+echo "apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Plus; chmod 777 Plus; ./Plus" > /bin/sshplus && chmod +x /bin/sshplus > /dev/null 2>&1
+wget -O /bin/menuV1 https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Modulos/menuV1 > /dev/null 2>&1; chmod +x /bin/menuV1
+wget -O /bin/menuV2 https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Install/menuV2 > /dev/null 2>&1; chmod +x /bin/menuV2
+wget -O /bin/menuV3 https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Install/menuV3 > /dev/null 2>&1; chmod +x /bin/menuV3
+wget -O /bin/menuV4 https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Install/menuV4 > /dev/null 2>&1; chmod +x /bin/menuV4
+rm versao* > /dev/null 2>&1; wget https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/versao > /dev/null 2>&1
+#-----------------------------------------------------------------------------------------------------------------
+echo -e "\n\033[1;32mKEY වලංගුයි!\033[1;32m"
+sleep 1s
+echo ""
+[[ -f "$HOME/usuarios.db" ]] && {
+    clear
+    echo -e "\n\033[0;34m═════════════════════════════════════════════════\033[0m"
+    echo ""
+	echo -e "                 \033[1;33m• \033[1;31mඅවධානය \033[1;33m• \033[0m"
+	echo ""
+    echo -e "\033[1;33mA User Database \033[1;32m(usuarios.db) \033[1;33mFoi" 
+    echo -e "Found! Do you want to keep it while preserving the limit"
+	echo -e "of Simultaneous Connections of Users? Or Do You Want"
+    echo -e "create a new database?\033[0m"
+	echo -e "\n\033[1;37m[\033[1;31m1\033[1;37m] \033[1;33mMaintain Current Database\033[0m"
+	echo -e "\033[1;37m[\033[1;31m2\033[1;37m] \033[1;33mCreate a New Database\033[0m"
+	echo -e "\n\033[0;34m═════════════════════════════════════════════════\033[0m"
+    echo ""
+	tput setaf 2 ; tput bold ; read -p "Option?: " -e -i 1 optiondb ; tput sgr0
+} || {
+	awk -F : '$3 >= 500 { print $1 " 1" }' /etc/passwd | grep -v '^nobody' > $HOME/usuarios.db
+}
+[[ "$optiondb" = '2' ]] && awk -F : '$3 >= 500 { print $1 " 1" }' /etc/passwd | grep -v '^nobody' > $HOME/usuarios.db
+clear
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%35s%s%-18s\n' " WAIT FOR INSTALLATION" ; tput sgr0
+echo ""
+echo ""
+echo -e "          \033[1;33m[\033[1;31m!\033[1;33m] \033[1;32mUPDATING SYSTEM \033[1;33m[\033[1;31m!\033[1;33m]\033[0m"
+echo ""
+echo -e "    \033[1;33mUPDATES USING TO TAKE A LITTLE TIME!\033[0m"
+echo ""
+fun_attlist () {
+    apt-get update -y
+	[[ ! -d /usr/share/.plus ]] && mkdir /usr/share/.plus
+	echo "crz: $(date)" > /usr/share/.plus/.plus
+}
+fun_bar 'fun_attlist'
+clear
+echo ""
+echo -e "          \033[1;33m[\033[1;31m!\033[1;33m] \033[1;32mINSTALLING PACKAGES \033[1;33m[\033[1;31m!\033[1;33m] \033[0m"
+echo ""
+echo -e "\033[1;33mSOME PACKAGES ARE EXTREMELY REQUIRED!\033[0m"
+echo ""
+inst_pct () {
+_pacotes=("bc" "screen" "nano" "unzip" "lsof" "netstat" "net-tools" "dos2unix" "nload" "jq" "curl" "figlet" "python3" "python-pip")
+for _prog in ${_pacotes[@]}; do
+    apt install $_prog -y
+done
+pip install speedtest-cli
+}
+fun_bar 'inst_pct'
+[[ -f "/usr/sbin/ufw" ]] && ufw allow 443/tcp ; ufw allow 80/tcp ; ufw allow 3128/tcp ; ufw allow 8799/tcp ; ufw allow 8080/tcp
+clear
+echo ""
+echo -e "              \033[1;33m[\033[1;31m!\033[1;33m] \033[1;32mFINISHING \033[1;33m[\033[1;31m!\033[1;33m] \033[0m"
+echo ""
+echo -e "      \033[1;33mCOMPLETING FUNCTIONS AND SETTINGS! \033[0m"
+echo ""
+fun_bar "$_Ink/list $_lnk $_Ink $_1nk $key"
+clear
+echo ""
+cd $HOME
+echo -e "        \033[1;33m • \033[1;32mINSTALLATION COMPLETED\033[1;33m • \033[0m"
+echo ""
+echo -e "\033[1;31m \033[1;33mMAIN COMMAND: \033[1;32mmenu\033[0m"
+echo -e "\033[1;33m MORE INFORMATION (වැඩි විස්තර) \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@sibatrow 🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥\033[0m"
+rm $HOME/Plus && cat /dev/null > ~/.bash_history && history -c
