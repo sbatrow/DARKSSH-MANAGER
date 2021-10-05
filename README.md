@@ -17,7 +17,7 @@ gets $100 in credit over 60 days
 [![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=b255f41c4d26&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
 # Tutorial 
-[![asciicast](https://asciinema.org/a/113463.png)](https://asciinema.org/a/113463)
+[![asciicast](https://telegra.ph/file/3d438e739a29570b43ab0.jpg)](https://telegra.ph/file/3d438e739a29570b43ab0.jpg)
 
 - 
 🧿ඉතින් darkssh script🦾  එක මම හැදුවට ගොඩක් අය ඒක use කරන.විදිහ දන්නෙ නැ. 
