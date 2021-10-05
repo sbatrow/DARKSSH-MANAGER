@@ -20,6 +20,9 @@ gets $100 in credit over 60 days
 
 [<img src="https://telegra.ph/file/c374c5a7731796440b6e1.jpg" width="50%">](https://youtu.be/g7yfqBNkk-g)
 
+[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+
+
 - 
 🧿ඉතින් darkssh script🦾  එක මම හැදුවට ගොඩක් අය ඒක use කරන.විදිහ දන්නෙ නැ. 
 ඉතින් ඔන්න එ වීඩියෝ 🖥 එකත් ගෙනාව.🧿
