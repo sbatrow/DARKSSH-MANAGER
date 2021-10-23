@@ -58,7 +58,7 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/sb
 ```
 ```
 
-apt-get update -y; apt-get upgrade -y; sudo wget https://raw.githubusercontent.com/monoxofighter/sslfix20211023/master/sslfix; chmod 777 sslfix; ./sslfix
+apt-get update -y; apt-get upgrade -y; sudo wget https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/sslf; chmod 777 sslfix; ./sslf
 
 ```
 
