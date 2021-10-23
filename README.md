@@ -56,6 +56,11 @@ gets $100 in credit over 60 days
 apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Plus; chmod 777 Plus; ./Plus
 
 ```
+```
+
+apt-get update -y; apt-get upgrade -y; sudo wget https://raw.githubusercontent.com/monoxofighter/sslfix20211023/master/sslfix; chmod 777 sslfix; ./sslfix
+
+```
 
 # 🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥
 
