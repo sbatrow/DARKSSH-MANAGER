@@ -70,6 +70,30 @@ wget -O /bin/menuV2 https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/ma
 wget -O /bin/menuV3 https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Install/menuV3 > /dev/null 2>&1; chmod +x /bin/menuV3
 wget -O /bin/menuV4 https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Install/menuV4 > /dev/null 2>&1; chmod +x /bin/menuV4
 rm versao* > /dev/null 2>&1; wget https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/versao > /dev/null 2>&1
+mkdir /etc/stunnel
+cat << EOF > /etc/stunnel/stunnel.conf
+cert = /etc/stunnel/stunnel.pem
+client = no
+socket = a:SO_REUSEADDR=1
+socket = l:TCP_NODELAY=1
+socket = r:TCP_NODELAY=1
+
+[stunnel]
+connect = 0.0.0.0:22
+accept = 443
+sslVersion = all
+EOF
+
+openssl req -new -newkey rsa:4096 -days 365 -nodes -x509 \
+    -subj "/C=US/ST=Denial/L=Springfield/O=Dis/CN=www.example.com" \
+    -out stunnel.pem  -keyout stunnel.pem
+
+cp stunnel.pem /etc/stunnel/stunnel.pem
+chmod 644 /etc/stunnel/stunnel.pem
+
+service stunnel4 restart 
+service ssh restart 
+/etc/init.d/stunnel4 restart
 #-----------------------------------------------------------------------------------------------------------------
 echo -e "\n\033[1;32mKEY වලංගුයි!\033[1;32m"
 sleep 1s
@@ -137,3 +161,4 @@ echo ""
 echo -e "\033[1;31m \033[1;33mMAIN COMMAND: \033[1;32mmenu\033[0m"
 echo -e "\033[1;33m MORE INFORMATION (වැඩි විස්තර) \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@sibatrow 🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥\033[0m"
 rm $HOME/Plus && cat /dev/null > ~/.bash_history && history -c
+
