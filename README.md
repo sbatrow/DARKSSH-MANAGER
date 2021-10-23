@@ -1,11 +1,14 @@
-# ⚠️ SSL 443 port have some problem ⚠️
+# ⚠️SSL Error Fixed ⚠️
 
-plz wait i will fix it
+Telegram 
+video = https://t.me/YouTech_VPN_HUB/1356
+
 
 # 📌DARKSSH new update v3 now
 
-* UPDATE 22/08/2021
+* UPDATE 23/10/2021
 
+*  ssl problem fixed @
 *  Have Telegram ssh create bot
 *  Have ssh account banner name change 
 *  limiter problem fixed 
