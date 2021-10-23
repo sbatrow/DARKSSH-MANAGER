@@ -1,8 +1,3 @@
-# ⚠️SSL 443 Port Error Fixed ⚠️
-
-Telegram 
-video = https://t.me/YouTech_VPN_HUB/1356
-
 
 # 📌DARKSSH new update v3.5 now
 
