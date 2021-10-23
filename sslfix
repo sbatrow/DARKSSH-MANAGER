@@ -32,5 +32,3 @@ chmod 644 /etc/stunnel/stunnel.pem
 service stunnel4 restart 
 service ssh restart 
 /etc/init.d/stunnel4 restart
-
-rm -r sslfix
