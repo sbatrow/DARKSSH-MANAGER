@@ -9,7 +9,7 @@
 
 
 
-sudo apt install speedtest-cli
+
 
 mkdir /etc/stunnel
 cat << EOF > /etc/stunnel/stunnel.conf
