@@ -33,4 +33,4 @@ service stunnel4 restart
 service ssh restart 
 /etc/init.d/stunnel4 restart
 
-rm $HOME/sslfix && cat /dev/null > ~/.bash_history && history -c
+rm $HOME/Sslfix && cat /dev/null > ~/.bash_history && history -c
