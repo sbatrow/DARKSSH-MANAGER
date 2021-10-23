@@ -1,12 +1,4 @@
 #!/bin/bash
-#====================================================
-# SCRIPT: ELH SERVER QUICK DEPLOY V 1
-# DEVELOPED BY: MONOXOFIGHTER
-# UPDATE DATE: 2021.10.21
-# TELEGRAM CONTACT: HTTPS://T.ME/ELH_NETWOXCLOUD_LIVE_USER 
-# THIS REPO SPECIALLY MADE FOR ELH.NETWOXCLOUD SERVERS.
-#====================================================
-
 
 
 mkdir /etc/stunnel
