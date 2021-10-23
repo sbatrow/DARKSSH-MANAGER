@@ -7,9 +7,7 @@
 # THIS REPO SPECIALLY MADE FOR ELH.NETWOXCLOUD SERVERS.
 #====================================================
 
-
-
-
+sudo apt install speedtest-cli
 
 mkdir /etc/stunnel
 cat << EOF > /etc/stunnel/stunnel.conf
@@ -34,5 +32,3 @@ chmod 644 /etc/stunnel/stunnel.pem
 service stunnel4 restart 
 service ssh restart 
 /etc/init.d/stunnel4 restart
-
-rm -r sslf
