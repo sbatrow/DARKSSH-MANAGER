@@ -119,6 +119,7 @@ for _prog in ${_pacotes[@]}; do
     apt install $_prog -y
 done
 pip install speedtest-cli
+apt install speedtest-cli
 }
 fun_bar 'inst_pct'
 [[ -f "/usr/sbin/ufw" ]] && ufw allow 443/tcp ; ufw allow 80/tcp ; ufw allow 3128/tcp ; ufw allow 8799/tcp ; ufw allow 8080/tcp
