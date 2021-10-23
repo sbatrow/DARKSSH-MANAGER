@@ -58,7 +58,7 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/sb
 ```
 ```
 
-apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Sslfix; chmod 777 Sslfix; ./Sslfix
+apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Sslfix.sh; chmod 777 Sslfix.sh; Sslfix.sh
 
 ```
 
