@@ -45,7 +45,7 @@ gets $100 in credit over 60 days
  
 * SINHALA
 
-📌 Do not use Ubuntu 20 or later
+#📌 Do not use Ubuntu 20 or later
 
 # ❤️Remodied for Sri Lanka ...
 
