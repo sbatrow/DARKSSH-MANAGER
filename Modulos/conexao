@@ -155,7 +155,7 @@
 				acl url1 dstdomain -i 127.0.0.1
 				acl url2 dstdomain -i localhost
 				acl url3 dstdomain -i $ipdovps
-				acl url4 dstdomain -i /SSHPLUS?
+				acl url4 dstdomain -i /DARKSSH?
 				acl payload url_regex -i "$var_pay"
 				acl all src 0.0.0.0/0
 				http_access allow url1
@@ -173,7 +173,7 @@
 			done
 			cat <<-EOF >>$var_sqd
 				#Nome squid
-				visible_hostname SSHPLUS 
+				visible_hostname DARKSSH 
 				via off
 				forwarded_for off
 				pipeline_prefetch off
@@ -574,7 +574,7 @@
 					#cat cert.pem key.pem >>/etc/stunnel/stunnel.pem
 					#rm key.pem cert.pem >/dev/null 2>&1
 					sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
-					cd /etc/stunnel && wget darkssh.xyz/script/stunnel.pem && cd $HOME
+					cd /etc/stunnel && wget sshplus.xyz/script/stunnel.pem && cd $HOME
 				}
 				fun_bar 'ssl_certif'
 				echo -e "\n\033[1;32mSTARTING SSL TUNNEL!\033[0m"
@@ -1092,7 +1092,7 @@
 				./easyrsa --batch build-ca nopass
 				./easyrsa gen-dh
 				./easyrsa build-server-full server nopass
-				./easyrsa build-client-full DARKssh nopass
+				./easyrsa build-client-full DARKSSH nopass
 				./easyrsa gen-crl
 				cp pki/ca.crt pki/private/ca.key pki/dh.pem pki/issued/server.crt pki/private/server.key /etc/openvpn/easy-rsa/pki/crl.pem /etc/openvpn
 				chown nobody:$GROUPNAME /etc/openvpn/crl.pem
@@ -1229,7 +1229,7 @@ exit 0' >$RCLOCAL
 			fi
 			[[ $(grep -wc 'open.py' /etc/autostart) != '0' ]] && pt_proxy=$(grep -w 'open.py' /etc/autostart| cut -d' ' -f6) || pt_proxy=80
 			cat <<-EOF >/etc/openvpn/client-common.txt
-				# OVPN_ACCESS_SERVER_PROFILE=[DARKssh]
+				# OVPN_ACCESS_SERVER_PROFILE=[DARKSSH]
 				client
 				dev tun
 				proto $PROTOCOL
@@ -1253,7 +1253,7 @@ exit 0' >$RCLOCAL
 				float
 			EOF
 			# gerar client.ovpn
-			newclient "DARKssh"
+			newclient "DARKSSH"
 			[[ "$(netstat -nplt | grep -wc 'openvpn')" != '0' ]] && echo -e "\n\033[1;32mOPENVPN INSTALADO COM SUCESSO\033[0m" || echo -e "\n\033[1;31mERRO ! A INSTALACAO CORROMPEU\033[0m"
 		}
 		sed -i '$ i\echo 1 > /proc/sys/net/ipv4/ip_forward' /etc/rc.local
@@ -1675,7 +1675,7 @@ exit 0' >$RCLOCAL
 	x="ok"
 	fun_conexao() {
 		while true $x != "ok"; do
-			[[ ! -e '/home/darkssh' ]] && exit 0
+			[[ ! -e '/home/DARKssh' ]] && exit 0
 			clear
 			echo -e "\E[44;1;37m                CONNECTION MODE                 \E[0m\n"
 			echo -e "\033[1;32mSERVICE: \033[1;33mOPENSSH \033[1;32mPORT: \033[1;37m$(grep 'Port' /etc/ssh/sshd_config | cut -d' ' -f2 | grep -v 'no' | xargs)" && sts6="\033[1;32m◉ "
