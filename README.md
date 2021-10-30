@@ -1,7 +1,7 @@
 
 # 📌DARKSSH new update v3.5 now
 
-* UPDATE 23/10/2021
+* UPDATE 30/10/2021
 
 *  ssl problem fixed @
 *  Have Telegram ssh create bot
