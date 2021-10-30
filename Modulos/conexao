@@ -174,7 +174,7 @@
 			done
 			cat <<-EOF >>$var_sqd
 				#Nome squid
-				visible_hostname DARKssh 
+				visible_hostname DARKSSH 
 				via off
 				forwarded_for off
 				pipeline_prefetch off
