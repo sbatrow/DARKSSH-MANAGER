@@ -155,10 +155,9 @@
 				acl url1 dstdomain -i 127.0.0.1
 				acl url2 dstdomain -i localhost
 				acl url3 dstdomain -i $ipdovps
-				acl url4 dstdomain -i /DARKSSH?
+				acl url4 dstdomain -i /SSHPLUS?
 				acl payload url_regex -i "$var_pay"
 				acl all src 0.0.0.0/0
-
 				http_access allow url1
 				http_access allow url2
 				http_access allow url3
@@ -174,7 +173,7 @@
 			done
 			cat <<-EOF >>$var_sqd
 				#Nome squid
-				visible_hostname DARKSSH 
+				visible_hostname SSHPLUS 
 				via off
 				forwarded_for off
 				pipeline_prefetch off
