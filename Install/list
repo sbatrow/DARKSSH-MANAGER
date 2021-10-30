@@ -7,7 +7,7 @@
 #	CANAL TELEGRAM:	http://t.me/darkssh
 #====================================================
 _lvk=$(wget -qO- https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/dev/Install/versao)
-IP=$(wget -qO- darkssh.xyz/meuip.php)
+IP=$(wget -qO- sshplus.xyz/meuip.php)
 IP2=$(wget -qO- http://whatismyip.akamai.com/)
 [[ "$IP" != "$IP2" ]] && ipdovps="$IP2" || ipdovps="$IP"
 echo -e "$ipdovps" >/etc/IP
@@ -52,7 +52,7 @@ _host[2]="portalrecarga.vivo.com.br/recarga"
 _host[3]="navegue.vivo.com.br/controle/"
 _host[4]="navegue.vivo.com.br/pre/"
 _host[5]="www.whatsapp.net"
-_host[6]="/SSHPLUS?"
+_host[6]="/DARKSSH?"
 for host in ${_host[@]}; do
 	if [[ "$(grep -w "$host" $_arq_host | wc -l)" = "0" ]]; then
 		sed -i "3i\127.0.0.1 $host" $_arq_host
@@ -64,7 +64,7 @@ clear
 #INICIO AUTOMATICO' >/etc/autostart
 	chmod +x /etc/autostart
 } || {
-	[[ $(ps x | grep "bot_plus" | grep -v grep | wc -l) != '0' ]] && wget -qO- https://raw.githubusercontent.com/shellscriptx/shellbot/dev/ShellBot.sh >/etc/DARKssh/ShellBot.sh
+	[[ $(ps x | grep "bot_plus" | grep -v grep | wc -l) != '0' ]] && wget -qO- https://raw.githubusercontent.com/shellscriptx/shellbot/master/ShellBot.sh >/etc/DARKssh/ShellBot.sh
 	for proc in $(ps x | grep 'dmS' | grep -v 'grep' | awk {'print $1'}); do
 		screen -r -S "$proc" -X quit
 	done
