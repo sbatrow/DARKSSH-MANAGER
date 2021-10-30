@@ -1,5 +1,5 @@
 
-# 📌DARKSSH new update v3.5 now
+# 📌DARKSSH new update v3.5.2 now
 
 * UPDATE 30/10/2021
 
