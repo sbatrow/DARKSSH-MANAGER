@@ -56,7 +56,7 @@ gets $100 in credit over 60 days
 sudo -s
 ```
 ```
-apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/master/Dark; chmod 777 Dark; ./Dark
+apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/dev/Dark; chmod 777 Dark; ./Dark
 
 ```
 
