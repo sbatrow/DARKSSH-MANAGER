@@ -24,9 +24,9 @@ https://raw.githubusercontent.com/sbatrow/DARKSSH-MANAGER/dev/Install/dns
 
 https://www.dropbox.com/s/tgkxdwb03r7w59r/badvpn-udpgw
 
-https://raw.githubusercontent.com/CRAZY-VPN/SQUID3/dev/squid3
+https://raw.githubusercontent.com/CRAZY-VPN/SQUID3/master/squid3
 
-https://raw.githubusercontent.com/shellscriptx/shellbot/dev/ShellBot.sh
+https://raw.githubusercontent.com/shellscriptx/shellbot/master/ShellBot.sh
 
 https://github.com/stedolan/jq/releases/download/jq-1.5/jq-linux64
 
