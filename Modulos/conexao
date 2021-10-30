@@ -1675,7 +1675,7 @@ exit 0' >$RCLOCAL
 	x="ok"
 	fun_conexao() {
 		while true $x != "ok"; do
-			[[ ! -e '/home/DARKssh' ]] && exit 0
+			[[ ! -e '/home/darkssh' ]] && exit 0
 			clear
 			echo -e "\E[44;1;37m                CONNECTION MODE                 \E[0m\n"
 			echo -e "\033[1;32mSERVICE: \033[1;33mOPENSSH \033[1;32mPORT: \033[1;37m$(grep 'Port' /etc/ssh/sshd_config | cut -d' ' -f2 | grep -v 'no' | xargs)" && sts6="\033[1;32m◉ "
