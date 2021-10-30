@@ -52,7 +52,7 @@ _host[2]="portalrecarga.vivo.com.br/recarga"
 _host[3]="navegue.vivo.com.br/controle/"
 _host[4]="navegue.vivo.com.br/pre/"
 _host[5]="www.whatsapp.net"
-_host[6]="/DARKSSH?"
+_host[6]="/SSHPLUS?"
 for host in ${_host[@]}; do
 	if [[ "$(grep -w "$host" $_arq_host | wc -l)" = "0" ]]; then
 		sed -i "3i\127.0.0.1 $host" $_arq_host
