@@ -20,7 +20,7 @@ gets $100 in credit over 60 days
 
 # Tutorial 
 
-[<img src="https://telegra.ph/file/c374c5a7731796440b6e1.jpg" width="50%">](https://youtu.be/g7yfqBNkk-g)
+[<img src="https://telegra.ph/file/c374c5a7731796440b6e1.jpg" width="50%">](https://www.youtube.com/channel/UC3E-UaRr8a5vndVOmlnLjjg/?sub_confirmation=1)
 
 - 
 🧿ඉතින් darkssh script🦾  එක මම හැදුවට ගොඩක් අය ඒක use කරන.විදිහ දන්නෙ නැ. 
