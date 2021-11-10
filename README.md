@@ -12,12 +12,6 @@
 *  and more
 *  manual ssh baner add command
 
-# 🎁Offer
-
-gets $100 in credit over 60 days
-
-[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=b255f41c4d26&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
-
 # Tutorial 
 
 [<img src="https://telegra.ph/file/c374c5a7731796440b6e1.jpg" width="50%">](https://www.youtube.com/channel/UC3E-UaRr8a5vndVOmlnLjjg/?sub_confirmation=1)
