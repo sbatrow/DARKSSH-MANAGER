@@ -112,7 +112,7 @@ SCRIPT DARKSSH MANAGER යනු සුදුසු අංග සහ මෙව�
 
 # 😍 Credits
 
-1. @crazy_vpn - Developer of DARKssh Manager
+1. @crazy_vpn - Developer of ssh plus Manager
 
 # 🏃‍contact me
 
