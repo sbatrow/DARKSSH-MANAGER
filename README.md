@@ -1,16 +1,10 @@
 
-# 📌DARKSSH new update v3.5.2 now
+# 📌DARKSSH new update v3.6.0 now
 
-* UPDATE 30/10/2021
+* UPDATE 17/11/2021
 
-*  ssl problem fixed @
-*  Have Telegram ssh create bot
-*  Have ssh account banner name change 
-*  limiter problem fixed 
-*  new tab USER-LIMIT
-*  Telegram Bot RESELLER 
-*  and more
-*  manual ssh baner add command
+*  Dakssh Telegram Userbot
+
 
 ### Deploy User Bot on Heroku🏃‍♂
 
@@ -36,7 +30,16 @@
 
 * යාවත්කාලීන කිරීම 11/05/2021 - සම්පූර්ණ කරන ලද ව්‍යාපෘතිය
 
-* UPDATE 11/05/2021 - Completed Project
+* UPDATE 17/11/2021 - Completed Project
+
+*  ssl problem fixed @
+*  Have Telegram ssh create bot
+*  Have ssh account banner name change 
+*  limiter problem fixed 
+*  new tab USER-LIMIT
+*  Telegram Bot RESELLER 
+*  and more
+*  manual ssh baner add command
 
 # 🌐Language
 
