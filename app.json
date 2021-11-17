@@ -56,7 +56,7 @@
         },
         "BOT_USERNAME": {
             "description": "Your telegram bot username",
-            "value": "",
+            "value": ""
            
         },
         "BANNER_NAME": {
