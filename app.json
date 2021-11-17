@@ -49,7 +49,7 @@
             "value": ""
             
         },
-        "SESSION": {
+        "STRING_SESSION": {
             "description": "Your session string. Can be added now, or after deploy. (The bot will NOT work without a session string!!)",
             "value": ""
             
