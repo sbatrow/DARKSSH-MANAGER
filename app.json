@@ -1,0 +1,77 @@
+{    
+
+"name": "Darkssh-Manager-userBot",
+    "description": "A bot that can Manage your ssh",
+    "logo": "https://telegra.ph/file/a300722ddab9d8d24fc15.jpg",
+    "keywords": [
+        "ssh",
+        "ssh bot",
+        "darkssh",
+        "vpn-userbot"
+    ],
+    "website": "https://youtech.live",
+    "repository": "https://github.com/sbatrow/DARKSSH-MANAGER",
+    "success_url": "https://t.me/YouTech_Support",
+    "env": {
+        "ADMINS": {
+            "description": "Your Telegram ID use @my_id_bot",
+            "value": "",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Your telegram bot token",
+            "value": "",
+            "required": true
+        },
+        "SSH_IP": {
+            "description": "Your ssh vps ip",
+            "value": "",
+            "required": true
+        },
+        "SSH_USERNAME": {
+            "description": "Your ssh vps username",
+            "value": "",
+            "required": true
+        },
+        "SSH_PASS": {
+            "description": "Your ssh vps password",
+            "value": "",
+            "required": true
+        
+        },
+        "API_ID": {
+            "description": "Your telegram api id",
+            "value": "",
+            "required": true 
+        }
+        
+        },
+        "API_HASH": {
+            "description": "Your telegram api hash ",
+            "value": "",
+            "required": true
+            
+        },
+        "STRING_SESSION": {
+            "description": "Your telegram string session",
+            "value": "",
+            "required": true
+            
+        },
+        "BOT_USERNAME": {
+            "description": "Your telegram bot username",
+            "value": "",
+            "required": true
+        },
+        "BANNER_NAME": {
+            "description": "ssh account name like (🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥)",
+            "value": "",
+            "required": true
+    },
+   "buildpacks": [
+    
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
