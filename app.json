@@ -40,33 +40,28 @@
         
         },
         "API_ID": {
-            "description": "Your telegram api id",
-            "value": "",
-            "required": true 
-        }
-        
+            "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
+            "value": "", 
+            "required": false
         },
         "API_HASH": {
-            "description": "Your telegram api hash ",
+            "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
             "value": "",
-            "required": true
             
         },
-        "STRING_SESSION": {
-            "description": "Your telegram string session",
-            "value": "",
-            "required": true
+        "SESSION": {
+            "description": "Your session string. Can be added now, or after deploy. (The bot will NOT work without a session string!!)",
+            "value": ""
             
         },
         "BOT_USERNAME": {
             "description": "Your telegram bot username",
             "value": "",
-            "required": true
+           
         },
         "BANNER_NAME": {
             "description": "ssh account name like (🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥)",
             "value": "",
-            "required": true
     },
    "buildpacks": [
     
