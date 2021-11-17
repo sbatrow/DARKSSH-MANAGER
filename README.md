@@ -12,6 +12,11 @@
 *  and more
 *  manual ssh baner add command
 
+### Deploy Bot on Heroku🏃‍♂
+
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sbatrow/DARKSSH-MANAGER)
+
+
 # Tutorial 
 
 [<img src="https://telegra.ph/file/c374c5a7731796440b6e1.jpg" width="50%">](https://www.youtube.com/channel/UC3E-UaRr8a5vndVOmlnLjjg/?sub_confirmation=1)
