@@ -46,7 +46,7 @@
         },
         "API_HASH": {
             "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
-            "value": "",
+            "value": ""
             
         },
         "SESSION": {
@@ -61,7 +61,7 @@
         },
         "BANNER_NAME": {
             "description": "ssh account name like (🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥)",
-            "value": "",
+            "value": ""
     },
    "buildpacks": [
     
