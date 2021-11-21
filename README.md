@@ -142,4 +142,4 @@ SCRIPT DARKSSH MANAGER යනු සුදුසු අංග සහ මෙව�
 
 [![License](https://www.gnu.org/graphics/gplv3-or-later.png)](LICENSE)
 
-**By: Batrow tech 🇱🇰 **
+**By: YouTech 🇱🇰 **
