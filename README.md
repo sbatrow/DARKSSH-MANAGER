@@ -48,6 +48,23 @@
 
 ## :book: Installation
 
+
+<details>
+👾 Dark-Script-installer  👾
+
+@dark_install_bot
+
+📌DARK-NEW   
+
+⭕️ Darkssh➕ ⭕️
+
+🦄Auto Script Install Bot
+
+Developer
+By- [𝙎𝙞𝙩𝙝𝙪𝙢 𝘽𝙖𝙩𝙧𝙤𝙬 🇱🇰](https://t.me/sibatrow) ⁪⁬⁮⁮⁮
+
+[🧿YOU Tech🧿](https://t.me/YouTech_VPN_HUB)
+
 ```
 sudo -s
 ```
