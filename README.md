@@ -50,7 +50,8 @@
 
 
 <details>
-👾 Dark-Script-installer  👾
+ 
+## 👾 Dark-Script-installer  👾
 
 @dark_install_bot
 
@@ -64,6 +65,8 @@ Developer
 By- [𝙎𝙞𝙩𝙝𝙪𝙢 𝘽𝙖𝙩𝙧𝙤𝙬 🇱🇰](https://t.me/sibatrow) ⁪⁬⁮⁮⁮
 
 [🧿YOU Tech🧿](https://t.me/YouTech_VPN_HUB)
+ 
+</details>
 
 ```
 sudo -s
