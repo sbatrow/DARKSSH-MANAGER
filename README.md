@@ -51,12 +51,12 @@
 
 <details>
  
-<summary><p><b>Click To View [Terminal] </b></p></summary>
+<summary><p><b>Auto Script Install Telegram Bot </b></p></summary>
 
  
 ## 👾 Dark-Script-installer  👾
 
-@dark_install_bot
+[@dark_install_bot](https://t.me/@dark_install_bot)
 
 📌DARK-NEW   
 
