@@ -51,7 +51,7 @@
 
 <details>
  
-<summary><p><b>Auto Script Install Telegram Bot </b></p></summary>
+ <summary><p><b> Click To View <b>Auto Script Install Telegram Bot</b></b></p></summary>
 
  
 ## 👾 Dark-Script-installer  👾
