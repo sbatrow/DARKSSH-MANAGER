@@ -51,6 +51,9 @@
 
 <details>
  
+<summary><p><b>Click To View [Terminal] </b></p></summary>
+
+ 
 ## 👾 Dark-Script-installer  👾
 
 @dark_install_bot
