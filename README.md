@@ -21,10 +21,10 @@
 
 🧿YOU Tech🧿
 
-### String Session Gen
+# String Session Gen
 <a href="https://replit.com/@batrow/Dark-Manager-String"><img src="https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
 
-### Deploy User Bot on Heroku🏃‍♂
+# Deploy User Bot on Heroku🏃‍♂
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sbatrow/DARKSSH-MANAGER)
 
