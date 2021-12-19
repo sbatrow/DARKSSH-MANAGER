@@ -1,7 +1,9 @@
 
-# 📌DARKSSH new update v3.6.0 now
+# 📌DARKSSH new update v4.0.0 now
 
 * UPDATE 17/11/2021
+
+* Darkssh + windows app
 
 *  Dakssh Telegram Userbot
 
@@ -24,7 +26,7 @@
 
 * යාවත්කාලීන කිරීම 11/05/2021 - සම්පූර්ණ කරන ලද ව්‍යාපෘතිය
 
-* UPDATE 17/11/2021 - Completed Project
+* UPDATE 19/12/2021 - Completed Project
 
 *  ssl problem fixed @
 *  Have Telegram ssh create bot
