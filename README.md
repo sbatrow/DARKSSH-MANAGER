@@ -7,6 +7,20 @@
 
 *  Dakssh Telegram Userbot
 
+# 🌀 Darkssh Paid SSH Crεατσr app 🌀
+
+🪤 App For Windows
+⚡️ Programming Language :- C#
+
+[-] ═───────◇───────═
+
+📦 Dark-Script 🚀
+🔥 DΣVΣᄂӨPΣЯ : 𝙎𝙞𝙩𝙝𝙪𝙢 𝘽𝙖𝙩𝙧𝙤𝙬 🇱🇰
+
+[-] ═───────◇───────═
+
+🧿YOU Tech🧿
+
 ### String Session Gen
 <a href="https://replit.com/@batrow/Dark-Manager-String"><img src="https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
 
