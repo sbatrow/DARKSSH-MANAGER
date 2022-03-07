@@ -59,6 +59,7 @@ else
 		deluser --force $user > /dev/null 2>&1
 		echo -e "\E[41;1;37m User $user successfully removed! \E[0m"
 		grep -v ^$user[[:space:]] /root/usuarios.db > /tmp/ph ; cat /tmp/ph > /root/usuarios.db
+		grep -v ^$user[[:space:]] /home/web.db > /tmp/ph ; cat /tmp/ph > /home/web.db
 		rm /etc/DARKssh/senha/$user 1>/dev/null 2>/dev/null
 		if [[ -e /etc/openvpn/server.conf ]]; then
 			remove_ovp $user
@@ -71,6 +72,7 @@ else
 			echo ""
 			echo -e "\E[41;1;37m User $user successfully removed! \E[0m"
 			grep -v ^$user[[:space:]] /root/usuarios.db > /tmp/ph ; cat /tmp/ph > /root/usuarios.db
+			grep -v ^$user[[:space:]] /home/web.db > /tmp/ph ; cat /tmp/ph > /home/web.db
 			rm /etc/DARKssh/senha/$user 1>/dev/null 2>/dev/null
 			if [[ -e /etc/openvpn/server.conf ]]; then
 				remove_ovp $user
@@ -83,6 +85,7 @@ else
 			deluser --force $user > /dev/null 2>&1
 			echo -e "\E[41;1;37m User  $usersuccessfully removed! \E[0m"
 			grep -v ^$user[[:space:]] /root/usuarios.db > /tmp/ph ; cat /tmp/ph > /root/usuarios.db
+			grep -v ^$user[[:space:]] /home/web.db > /tmp/ph ; cat /tmp/ph > /home/web.db
 			rm /etc/DARKssh/senha/$user 1>/dev/null 2>/dev/null
 			if [[ -e /etc/openvpn/server.conf ]]; then
 				remove_ovp $user
