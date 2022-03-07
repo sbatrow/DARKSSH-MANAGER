@@ -50,6 +50,7 @@ useradd -M -s /bin/false $nome
 (echo $pass;echo $pass) |passwd $nome > /dev/null 2>&1
 echo "$pass" > /etc/DARKssh/senha/$nome
 echo "$nome $limit" >> /root/usuarios.db
+echo "$nome $limit $pass $u_temp test" >> /home/web.db
 echo "#!/bin/bash
 pkill -f "$nome"
 userdel --force $nome
