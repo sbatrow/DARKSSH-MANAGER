@@ -33,6 +33,7 @@ for user in $(awk -F: '{print $1}' /etc/passwd); do
 	pkill -f $user
 	userdel --force $user
 	grep -v ^$user[[:space:]] /root/usuarios.db > /tmp/ph ; cat /tmp/ph > /root/usuarios.db
+	grep -v ^$user[[:space:]] /home/web.db > /tmp/ph ; cat /tmp/ph > /home/web.db
 	if [[ -e /etc/openvpn/server.conf ]]; then
 		remove_ovp $user
 	fi
