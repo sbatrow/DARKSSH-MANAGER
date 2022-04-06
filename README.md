@@ -16,22 +16,22 @@
 🖥 Web Script
 
 👇
-dashboard.you-tech.win
+[dashboard.you-tech.win](https://dashboard.you-tech.win/)
 
 
- (https://dashboard.you-tech.win/)🖥 Web Terminal+
+ 🖥 Web Terminal+
 
 👇
-client.you-tech.win
+[client.you-tech.win](https://client.you-tech.win/)
 
- (https://client.you-tech.win/)📖 Installation
+ 📖 Installation
 
 💠Ssh
 
 1️⃣ Sing Up 
 2️⃣Sign in
-3️⃣ go dashboard.you-tech.win/ssh_tu
- (https://dashboard.you-tech.win/ssh_tu) 
+3️⃣ go [dashboard.you-tech.win/ssh_tu](https://dashboard.you-tech.win/ssh_tu) 
+ 
  
  🌶 You-Tech API Based Web 
 🍪 java, Html, css, Python
@@ -46,13 +46,13 @@ client.you-tech.win
 [-] ═───────◇───────═
 
 📦 Dark-Script 🚀
-🔥 DΣVΣᄂӨPΣЯ : 𝙎𝙞𝙩𝙝𝙪𝙢 𝘽𝙖𝙩𝙧𝙤𝙬 🇱🇰
+🔥 DΣVΣᄂӨPΣЯ : [𝙎𝙞𝙩𝙝𝙪𝙢 𝘽𝙖𝙩𝙧𝙤𝙬 🇱🇰](https://t.me/sibatrow) 
 
- (https://t.me/sibatrow) [-] ═───────◇───────═
+ [-] ═───────◇───────═
 
-🌀 Darkssh 🌀
- (https://t.me/Darks_SSH) 
-🧿YouTech (https://t.me/YouTech_VPN_HUB)🧿
+[🌀 Darkssh 🌀] (https://t.me/Darks_SSH) 
+
+[🧿YouTech🧿](https://t.me/YouTech_VPN_HUB)
 
 # 🌀 Darkssh Paid SSH Crεατσr app 🌀
 
