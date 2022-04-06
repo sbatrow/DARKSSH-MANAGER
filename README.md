@@ -9,6 +9,11 @@
 
 *  Dakssh Telegram Userbot
 
+<details>
+ 
+ <summary><p><b> Click To View <b>⚡️ 🌀 DarkSSH WEB🌀</b></b></p></summary>
+
+
 #⚡️ 🌀 DarkSSH WEB🌀
 
 ❓Go to your vps and create ssh and manage it,
@@ -53,9 +58,17 @@
 [🌀 Darkssh 🌀] (https://t.me/Darks_SSH) 
 
 [🧿YouTech🧿](https://t.me/YouTech_VPN_HUB)
+ 
+ </details>
+ 
+
+
+<details>
+ 
+ <summary><p><b> Click To View <b> 🌀 Darkssh Paid SSH Crεατσr app 🌀</b></b></p></summary>
 
 # 🌀 Darkssh Paid SSH Crεατσr app 🌀
-
+ 
 🪤 App For Windows
 
 ⚡️ Programming Language :- C#
@@ -90,6 +103,8 @@ Download
 </P>
 
 [<img src="https://telegra.ph/file/2dcbe7f7d4f630a36b460.jpg" width="50%">](https://vimeo.com/654801977)
+ 
+ </details>
 
 # 📌DARKSSH MANAGER
 
