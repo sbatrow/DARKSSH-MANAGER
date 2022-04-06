@@ -1,11 +1,58 @@
 
-# 📌DARKSSH new update v4.0.0 now
+# 📌DARKSSH new update v5.0.0 now
 
-* UPDATE 17/11/2021
+* UPDATE 06/04/2022
+
+* DarkSSH Panel+ 🌀 DarkSSH WEB🌀
 
 * Darkssh + windows app
 
 *  Dakssh Telegram Userbot
+
+#⚡️ 🌀 DarkSSH WEB🌀
+
+❓Go to your vps and create ssh and manage it,
+
+🖥 Web Script
+
+👇
+dashboard.you-tech.win
+
+
+ (https://dashboard.you-tech.win/)🖥 Web Terminal+
+
+👇
+client.you-tech.win
+
+ (https://client.you-tech.win/)📖 Installation
+
+💠Ssh
+
+1️⃣ Sing Up 
+2️⃣Sign in
+3️⃣ go dashboard.you-tech.win/ssh_tu
+ (https://dashboard.you-tech.win/ssh_tu) 
+ 
+ 🌶 You-Tech API Based Web 
+🍪 java, Html, css, Python
+🔥 Fast response
+🤗 Friendly interface
+🌈 with Our paid domain
+
+⭐️Professional dashboard experience
+
+⚠️This is beta only. Waiting for V2ray and more amazing tool
+
+[-] ═───────◇───────═
+
+📦 Dark-Script 🚀
+🔥 DΣVΣᄂӨPΣЯ : 𝙎𝙞𝙩𝙝𝙪𝙢 𝘽𝙖𝙩𝙧𝙤𝙬 🇱🇰
+
+ (https://t.me/sibatrow) [-] ═───────◇───────═
+
+🌀 Darkssh 🌀
+ (https://t.me/Darks_SSH) 
+🧿YouTech (https://t.me/YouTech_VPN_HUB)🧿
 
 # 🌀 Darkssh Paid SSH Crεατσr app 🌀
 
