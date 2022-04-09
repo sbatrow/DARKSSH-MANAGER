@@ -9,7 +9,7 @@
 
 *  Dakssh Telegram Userbot
 
-[![Image](https://telegra.ph/file/9a136ddfd96c130857004.jpg)](https://www.you-tech.win/)
+[![Image](https://telegra.ph/file/9a136ddfd96c130857004.jpg width="50%")](https://www.you-tech.win/)
 
 <details>
  
