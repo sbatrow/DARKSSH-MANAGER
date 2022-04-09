@@ -14,10 +14,12 @@
 <details>
  
  
- <summary><p><b> 👉 Click To View <b>⚡️ 🌀 DarkSSH WEB🌀</b></b></p> [![Image](https://telegra.ph/file/9a136ddfd96c130857004.jpg)](https://www.you-tech.win/) </summary>
+ <summary><p><b> 👉 Click To View <b>⚡️ 🌀 DarkSSH WEB🌀</b></b></p> <img src="https://telegra.ph/file/9a136ddfd96c130857004.jpg" width="50%"></summary>
 
 
 #⚡️ 🌀 DarkSSH WEB🌀
+ 
+[<img src="https://telegra.ph/file/9a136ddfd96c130857004.jpg" width="50%">](https://www.you-tech.win/)
 
 ❓Go to your vps and create ssh and manage it,
 
@@ -68,9 +70,8 @@
 
 <details>
  
- [<img src="https://telegra.ph/file/2978def47870c4c016b8f.jpg" width="50%">](https://darkssh.sourceforge.io)
  
- <summary><p><b> 👉 Click To View<b> 🌀 Darkssh Paid SSH Crεατσr app 🌀</b></b></p>[<img src="https://telegra.ph/file/2978def47870c4c016b8f.jpg" width="50%">](https://darkssh.sourceforge.io)</summary>
+ <summary><p><b> 👉 Click To View<b> 🌀 Darkssh Paid SSH Crεατσr app 🌀</b></b></p><img src="https://telegra.ph/file/2978def47870c4c016b8f.jpg" width="50%"></summary>
 
 # 🌀 Darkssh Paid SSH Crεατσr app 🌀
  
