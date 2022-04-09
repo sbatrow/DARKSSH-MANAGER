@@ -68,6 +68,8 @@
 
 <details>
  
+ [<img src="https://telegra.ph/file/2978def47870c4c016b8f.jpg" width="50%">](https://darkssh.sourceforge.io)
+ 
  <summary><p><b> 👉 Click To View<b> 🌀 Darkssh Paid SSH Crεατσr app 🌀</b></b></p>[<img src="https://telegra.ph/file/2978def47870c4c016b8f.jpg" width="50%">](https://darkssh.sourceforge.io)</summary>
 
 # 🌀 Darkssh Paid SSH Crεατσr app 🌀
