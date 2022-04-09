@@ -11,7 +11,7 @@
 
 <details>
  
- <summary><p><b> Click To View <b>⚡️ 🌀 DarkSSH WEB🌀</b></b></p> <img src="https://telegra.ph/file/9a136ddfd96c130857004.jpg" width="50%"> </summary>
+ <summary><p><b> 👉 Click To View <b>⚡️ 🌀 DarkSSH WEB🌀</b></b></p> <img src="https://telegra.ph/file/9a136ddfd96c130857004.jpg" width="50%"> </summary>
 
 
 #⚡️ 🌀 DarkSSH WEB🌀
@@ -65,7 +65,7 @@
 
 <details>
  
- <summary><p><b> Click To View<b> 🌀 Darkssh Paid SSH Crεατσr app 🌀</b></b></p> <img src="https://telegra.ph/file/2978def47870c4c016b8f.jpg" width="50%"> </summary>
+ <summary><p><b> 👉 Click To View<b> 🌀 Darkssh Paid SSH Crεατσr app 🌀</b></b></p> <img src="https://telegra.ph/file/2978def47870c4c016b8f.jpg" width="50%"> </summary>
 
 # 🌀 Darkssh Paid SSH Crεατσr app 🌀
  
