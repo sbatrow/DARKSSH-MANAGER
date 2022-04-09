@@ -9,12 +9,12 @@
 
 *  Dakssh Telegram Userbot
 
-[![Image](https://telegra.ph/file/9a136ddfd96c130857004.jpg width="50%")](https://www.you-tech.win/)
+[![Image](https://telegra.ph/file/9a136ddfd96c130857004.jpg)](https://www.you-tech.win/)
 
 <details>
  
  
- <summary><p><b> 👉 Click To View <b>⚡️ 🌀 DarkSSH WEB🌀</b></b></p> <img src="https://telegra.ph/file/9a136ddfd96c130857004.jpg" width="50%"> </summary>
+ <summary><p><b> 👉 Click To View <b>⚡️ 🌀 DarkSSH WEB🌀</b></b></p> <img src="https://telegra.ph/file/9a136ddfd96c130857004.jpg" width="50%" href="https://www.you-tech.win/"> </summary>
 
 
 #⚡️ 🌀 DarkSSH WEB🌀
