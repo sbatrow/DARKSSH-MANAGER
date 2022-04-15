@@ -9,6 +9,9 @@
 
 *  Dakssh Telegram Userbot
 
+### Deploy Bot on Heroku🏃‍♂
+
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sbatrow/DARKSSH-MANAGER)
 
 
 <details>
@@ -16,9 +19,6 @@
  
  <summary><p><b> 👉 Click To View <b>⚡️ 🌀 DarkSSH WEB🌀</b></b></p> <img src="https://telegra.ph/file/9a136ddfd96c130857004.jpg" width="50%"></summary>
 
-### Deploy Bot on Heroku🏃‍♂
-
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sbatrow/DARKSSH-MANAGER)
 
 
 #⚡️ 🌀 DarkSSH WEB🌀
