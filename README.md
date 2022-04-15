@@ -99,6 +99,8 @@ Download
 
 🧿YOU Tech🧿
 
+</details>
+
 # String Session Gen
 <a href="https://replit.com/@batrow/Dark-Manager-String"><img src="https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
 
@@ -114,7 +116,6 @@ Download
 
 [<img src="https://telegra.ph/file/2dcbe7f7d4f630a36b460.jpg" width="50%">](https://vimeo.com/654801977)
  
- </details>
 
 # 📌DARKSSH MANAGER
 
