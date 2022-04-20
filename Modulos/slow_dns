@@ -143,7 +143,7 @@ initslow() {
         echo "screen -dmS slow_dns $DIR/dns-server -udp :5300 -privkey-file $DIR/server.key ${ns} 0.0.0.0:${ptdns}" >/etc/DARKssh/dns/autodns
         chmod 777 /etc/DARKssh/dns/autodns >/dev/null 2>&1
         echo "ss -lu|grep -w '5300' || /etc/DARKssh/dns/autodns" >>/etc/autostart
-        tmx='curl -sO  https://github.com/sbatrow/DARKSSH-MANAGER/raw/main/Modulos/slowdn && chmod +x slowdns && ./slowdns'
+        tmx='curl -sO  https://github.com/sbatrow/DARKSSH-MANAGER/raw/main/Modulos/slowdns && chmod +x slowdns && ./slowdns'
         echo -e "\n${GREEN}SLOWDNS ON !${SCOLOR}"
         echo -e "\n${YELLOW}TERMUX COMMAND${SCOLOR}: ${tmx} ${ns} ${keypub}"
         echo -ne "\n${RED}ENTER${YELLOW} to return to${GREEN} MENU!${SCOLOR}"
