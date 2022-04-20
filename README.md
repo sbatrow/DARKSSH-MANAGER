@@ -146,9 +146,6 @@ Download
 ## :book: Installation
 
 
-<details>
- 
- <summary><p><b> Click To View <b>👾 Auto Script Install Telegram Bot 👾</b></b></p></summary>
 
  
 ## 👾 Dark-Script-installer  👾
@@ -166,7 +163,7 @@ By- [𝙎𝙞𝙩𝙝𝙪𝙢 𝘽𝙖𝙩𝙧𝙤𝙬 🇱🇰](https://t.me/si
 
 [🧿YOU Tech🧿](https://t.me/YouTech_VPN_HUB)
  
-</details>
+
 
 [@dark_install_bot](https://t.me/@dark_install_bot)
 
